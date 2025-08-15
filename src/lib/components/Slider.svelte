@@ -1,6 +1,6 @@
 <script lang="ts">
   let index = 0;
-  const numSlides = 12;
+  const numSlides = 11;
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
@@ -320,12 +320,12 @@
           <p class="text-lg text-white/90 mt-4">And while efficiency pays for the project on its own, the real upside is in SaaS revenue and enterprise value multiples.</p>
         </div>
 
-        <div class="space-y-6">
+        <div class="space-y-4">
           <!-- Efficiency Gains -->
-          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <div class="flex items-center">
-                <span class="mr-4 text-3xl sm:text-4xl">⚡</span>
+                <span class="mr-3 sm:mr-4 text-2xl sm:text-3xl">⚡</span>
                 <div>
                   <h3 class="text-lg sm:text-xl font-bold text-white">Efficiency Gains</h3>
                   <p class="text-sm sm:text-base text-white/80">Saved in staff time and overhead</p>
@@ -336,10 +336,10 @@
           </div>
 
           <!-- SaaS Revenue -->
-          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <div class="flex items-center">
-                <span class="mr-4 text-3xl sm:text-4xl">💰</span>
+                <span class="mr-3 sm:mr-4 text-2xl sm:text-3xl">💰</span>
                 <div>
                   <h3 class="text-lg sm:text-xl font-bold text-white">First-Year SaaS Revenue</h3>
                   <p class="text-sm sm:text-base text-white/80">Conservative projection</p>
@@ -350,11 +350,11 @@
           </div>
 
           <!-- Total Impact -->
-          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
             <div class="text-center">
-              <div class="mb-4 text-4xl sm:text-5xl">🚀</div>
+              <div class="mb-3 sm:mb-4 text-3xl sm:text-4xl">🚀</div>
               <h3 class="text-2xl sm:text-3xl font-bold text-white mb-2">$172,000 First Year Impact</h3>
-              <p class="text-base sm:text-lg text-white/90 mb-4">On a $45,000 investment</p>
+              <p class="text-base sm:text-lg text-white/90 mb-3 sm:mb-4">On a $45,000 investment</p>
               <div class="text-lg sm:text-xl font-bold text-white">Payback Period: 4–6 months from efficiency gains <u>alone</u></div>
             </div>
           </div>
@@ -415,13 +415,13 @@
         </div>
       </article>
     {:else if index === 9}
-      <article class="w-full max-w-5xl text-left">
+      <article class="w-full max-w-5xl text-center">
         <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Secure Your SaaS Development</h1>
         
         <div class="flex justify-center px-4">
           <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50 max-w-2xl w-full">
             <div class="text-center">
-              <div class="mb-6 text-4xl sm:text-5xl">⏰</div>
+              <div class="mb-4 sm:mb-6 text-4xl sm:text-5xl">⏰</div>
               <h3 class="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Only 2 Spots Available This Quarter</h3>
               <p class="text-base sm:text-lg text-white/90 leading-relaxed">Due to our hands-on approach and commitment to quality, we limit ourselves to 2 agency SaaS projects per quarter. We are extremely picky with who we choose to work with to increase the chances of success.</p>
             </div>
@@ -429,13 +429,13 @@
         </div>
       </article>
     {:else if index === 10}
-      <article class="w-full max-w-5xl text-left">
+      <article class="w-full max-w-5xl text-center">
         <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Let's fucking do this.</h1>
         
         <div class="flex justify-center px-4">
           <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50 max-w-2xl w-full">
             <div class="text-center">
-              <div class="mb-6 text-4xl sm:text-5xl">🎯</div>
+              <div class="mb-4 sm:mb-6 text-4xl sm:text-5xl">🎯</div>
               <p class="text-lg sm:text-xl text-white/90 leading-relaxed">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
             </div>
           </div>
