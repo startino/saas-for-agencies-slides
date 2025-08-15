@@ -1,6 +1,6 @@
 <script lang="ts">
   let index = 0;
-  const numSlides = 14;
+  const numSlides = 16;
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
@@ -56,196 +56,657 @@
   <div class="relative mx-auto flex h-full w-full max-w-7xl items-center p-6 sm:p-12">
     {#if index === 0}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Transform Your Agency Into a Scalable SaaS Powerhouse</h1>
+        <div class="mb-4 inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">🚀</span>
+          SaaS Transformation for Agencies
+        </div>
+        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Turn Your Agency Into a Scalable SaaS Powerhouse</h1>
         <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p><strong>Custom SaaS Development for Digital Agencies Generating $1M/yr</strong></p>
-          <p>Build recurring revenue streams and automate operations to scale beyond services.</p>
+          <p><strong>We build (AI) SaaS for Digital Agencies (doing $1M+/yr)</strong></p>
+          <p>Whether to sell to other agencies (white-label) or productize your services and sell directly to customers.</p>
+        </div>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <div class="rounded-lg bg-white/10 p-4 backdrop-blur-sm">
+            <div class="text-2xl font-bold">💰</div>
+            <div class="text-sm opacity-80">40% Recurring Revenue</div>
+          </div>
+          <div class="rounded-lg bg-white/10 p-4 backdrop-blur-sm">
+            <div class="text-2xl font-bold">⚡</div>
+            <div class="text-sm opacity-80">$250k+ Annual Savings</div>
+          </div>
+          <div class="rounded-lg bg-white/10 p-4 backdrop-blur-sm">
+            <div class="text-2xl font-bold">📈</div>
+            <div class="text-sm opacity-80">3-5x Higher Valuations</div>
+          </div>
         </div>
       </article>
     {:else if index === 1}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">The $75k+ Agency Dilemma</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li>75% of revenue depends on <strong>YOU</strong> being involved in every project</li>
-            <li>Teams spend <strong>40+ hours/week</strong> on repetitive, manual tasks</li>
-            <li>Client demands increase while margins shrink</li>
-            <li>Trading time for money instead of building scalable value</li>
-            <li>Valuation capped at <strong>1–2× revenue</strong> due to service-heavy operations</li>
-          </ul>
+        <div class="mb-4 inline-flex items-center rounded-full bg-red-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">⚠️</span>
+          Your Agency's Problem
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">You've built a successful agency, but...</h1>
+        <div class="space-y-6">
+          <div class="grid gap-6 md:grid-cols-1 lg:grid-cols-1">
+            <div class="rounded-xl bg-white/10 p-6 backdrop-blur-sm border border-white/20">
+              <div class="mb-3 flex items-center">
+                <span class="mr-3 text-2xl">👨‍💼</span>
+                <span class="text-lg font-semibold">Founder Dependency</span>
+              </div>
+              <p class="text-white/90">75% of your revenue depends on YOU being involved in every project</p>
+            </div>
+            <div class="rounded-xl bg-white/10 p-6 backdrop-blur-sm border border-white/20">
+              <div class="mb-3 flex items-center">
+                <span class="mr-3 text-2xl">💸</span>
+                <span class="text-lg font-semibold">Expensive Manual Work</span>
+              </div>
+              <p class="text-white/90"><strong>Your team spends 40+ hours/week (costing you $8,000+/mo) on repetitive, manual tasks</strong></p>
+            </div>
+            <div class="rounded-xl bg-white/10 p-6 backdrop-blur-sm border border-white/20">
+              <div class="mb-3 flex items-center">
+                <span class="mr-3 text-2xl">📉</span>
+                <span class="text-lg font-semibold">Capped Valuation</span>
+              </div>
+              <p class="text-white/90">Your agency valuation multiple is capped at 1–2x revenue due to service-heavy operations</p>
+            </div>
+          </div>
         </div>
       </article>
     {:else if index === 2}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">The Million-Dollar Opportunity</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p>What if your agency could:</p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li>Generate <strong>40% of revenue</strong> from recurring SaaS subscriptions</li>
-            <li>Reduce operational costs by <strong>$250k+ annually</strong> through automation</li>
-            <li>Scale to <strong>$5M+ ARR</strong> without hiring proportionally more staff</li>
-            <li>Command <strong>3–5× higher valuations</strong> with SaaS revenue</li>
-          </ul>
+        <div class="mb-4 inline-flex items-center rounded-full bg-green-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">✨</span>
+          The New Opportunity
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">What if your agency could:</h1>
+        <div class="space-y-6">
+          <div class="grid gap-6 md:grid-cols-2">
+            <div class="rounded-xl bg-gradient-to-br from-green-500/20 to-green-600/10 p-6 backdrop-blur-sm border border-green-400/30">
+              <div class="mb-3 flex items-center">
+                <span class="mr-3 text-2xl">✅</span>
+                <span class="text-lg font-semibold">Recurring Revenue</span>
+              </div>
+              <p class="text-white/90">Generate <strong>40% of revenue</strong> from recurring SaaS subscriptions</p>
+            </div>
+            <div class="rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-600/10 p-6 backdrop-blur-sm border border-blue-400/30">
+              <div class="mb-3 flex items-center">
+                <span class="mr-3 text-2xl">✅</span>
+                <span class="text-lg font-semibold">Massive Savings</span>
+              </div>
+              <p class="text-white/90">Save <strong>$250k+ annually</strong> through automation ($1M/yr sounds nice until you realize you actually only take home low 6 figures…)</p>
+            </div>
+            <div class="rounded-xl bg-gradient-to-br from-purple-500/20 to-purple-600/10 p-6 backdrop-blur-sm border border-purple-400/30">
+              <div class="mb-3 flex items-center">
+                <span class="mr-3 text-2xl">✅</span>
+                <span class="text-lg font-semibold">Scale Efficiently</span>
+              </div>
+              <p class="text-white/90">Scale without hiring proportionally more staff</p>
+            </div>
+            <div class="rounded-xl bg-gradient-to-br from-orange-500/20 to-orange-600/10 p-6 backdrop-blur-sm border border-orange-400/30">
+              <div class="mb-3 flex items-center">
+                <span class="mr-3 text-2xl">✅</span>
+                <span class="text-lg font-semibold">Higher Valuations</span>
+              </div>
+              <p class="text-white/90">Command <strong>3-5x higher valuations</strong></p>
+            </div>
+          </div>
+          <div class="mt-8 rounded-xl bg-gradient-to-r from-red-500/20 to-orange-500/20 p-6 backdrop-blur-sm border border-red-400/30">
+            <div class="flex items-center mb-3">
+              <span class="mr-3 text-2xl">⚡</span>
+              <span class="text-lg font-semibold text-orange-200">The Future is Now</span>
+            </div>
+            <p class="text-white/90 font-medium">In two years, the only agencies left standing will be those offering clients their own proprietary SaaS tools. Everyone else will become a reseller for someone else's software.</p>
+          </div>
         </div>
       </article>
     {:else if index === 3}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Why Agencies Choose Us</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p><strong>⚡ Rapid Time-to-Market</strong></p>
-          <p>8–12 week delivery vs. 6+ months with other companies</p>
-          <p><strong>🤖 AI-First Approach</strong></p>
-          <p>We use AI to reach results faster than everyone else</p>
-          <p><strong>💰 Industry Expertise</strong></p>
-          <p>1.5+ years building SaaS solutions specifically for agencies</p>
+        <div class="mb-4 inline-flex items-center rounded-full bg-blue-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">🎯</span>
+          What We Hope to Achieve With You
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Success Stories</h1>
+        <div class="text-lg leading-snug text-white/90 mb-6">
+          <p class="mb-4 text-sm opacity-80">(not our case-studies)</p>
+        </div>
+        
+        <!-- MarketFlow Digital Case Study -->
+        <div class="rounded-xl bg-gradient-to-br from-green-500/20 to-emerald-600/10 p-6 backdrop-blur-sm border border-green-400/30 mb-6">
+          <div class="flex items-center mb-4">
+            <span class="mr-3 text-3xl">🚀</span>
+            <div>
+              <h3 class="text-2xl font-bold text-green-200">MarketFlow Digital</h3>
+              <p class="text-green-300">$120k/Month Agency</p>
+            </div>
+          </div>
+          <div class="grid gap-4 md:grid-cols-2">
+            <div>
+              <h4 class="font-semibold mb-2 text-white">Challenge:</h4>
+              <p class="text-white/90 mb-4">Manual campaign management eating 70% of team capacity</p>
+              <h4 class="font-semibold mb-2 text-white">Solution:</h4>
+              <p class="text-white/90">Custom marketing automation SaaS with client self-service portals</p>
+            </div>
+            <div>
+              <h4 class="font-semibold mb-2 text-white">Results:</h4>
+              <ul class="space-y-1 text-white/90">
+                <li>• <strong>$480k</strong> additional annual revenue from SaaS subscriptions</li>
+                <li>• <strong>65%</strong> reduction in manual campaign tasks</li>
+                <li>• <strong>40%</strong> higher client retention due to proprietary tools</li>
+                <li>• Staff productivity increased <strong>250%</strong> allowing focus on strategy</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </article>
     {:else if index === 4}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Case Study — MarketFlow Digital</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p><strong>$120k/Month Agency</strong></p>
-          <p><strong>Challenge:</strong> Manual campaign management eating 70% of team capacity</p>
-          <p><strong>Solution:</strong> Custom marketing automation SaaS with client self-service portals</p>
-          <p><strong>Results:</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li><strong>$480k</strong> additional annual revenue from SaaS subscriptions</li>
-            <li><strong>65%</strong> reduction in manual campaign tasks</li>
-            <li><strong>40%</strong> higher client retention</li>
-            <li><strong>250%</strong> staff productivity increase</li>
-          </ul>
+        <!-- GrowthLab Agency Case Study -->
+        <div class="rounded-xl bg-gradient-to-br from-purple-500/20 to-indigo-600/10 p-6 backdrop-blur-sm border border-purple-400/30">
+          <div class="flex items-center mb-4">
+            <span class="mr-3 text-3xl">📊</span>
+            <div>
+              <h3 class="text-2xl font-bold text-purple-200">GrowthLab Agency</h3>
+              <p class="text-purple-300">$95k/Month Agency</p>
+            </div>
+          </div>
+          <div class="grid gap-4 md:grid-cols-2">
+            <div>
+              <h4 class="font-semibold mb-2 text-white">Challenge:</h4>
+              <p class="text-white/90 mb-4">Clients demanding real-time reporting and advanced analytics</p>
+              <h4 class="font-semibold mb-2 text-white">Solution:</h4>
+              <p class="text-white/90">White-label analytics platform with automated reporting</p>
+            </div>
+            <div>
+              <h4 class="font-semibold mb-2 text-white">Results:</h4>
+              <ul class="space-y-1 text-white/90">
+                <li>• <strong>$350k</strong> new ARR within 12 months of launch</li>
+                <li>• Client churn reduced by <strong>55%</strong> due to superior tool value</li>
+                <li>• <strong>3.2x</strong> agency valuation increase when sold 18 months later</li>
+                <li>• <strong>85%</strong> of clients upgraded to premium SaaS tiers</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </article>
     {:else if index === 5}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Case Study — GrowthLab Agency</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p><strong>$95k/Month Agency</strong></p>
-          <p><strong>Challenge:</strong> Clients demanding real-time reporting and advanced analytics</p>
-          <p><strong>Solution:</strong> White-label analytics platform with automated reporting</p>
-          <p><strong>Results:</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li><strong>$350k</strong> new ARR within 12 months</li>
-            <li><strong>55%</strong> churn reduction due to superior tools</li>
-            <li><strong>3.2×</strong> agency valuation increase when sold</li>
-            <li><strong>85%</strong> of clients upgraded to premium tiers</li>
-          </ul>
+        <div class="mb-4 inline-flex items-center rounded-full bg-emerald-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">💰</span>
+          Your SaaS Investment Breakdown
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Complete SaaS Development Package</h1>
+        
+        <div class="mb-8 rounded-xl bg-gradient-to-r from-emerald-500/20 to-green-500/20 p-6 backdrop-blur-sm border border-emerald-400/30">
+          <div class="text-center mb-4">
+            <div class="text-4xl font-bold text-emerald-200">$45,000 + 3% revenue share</div>
+            <p class="text-emerald-300 mt-2">Complete SaaS Development Package</p>
+          </div>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-2">
+          <div class="rounded-xl bg-white/10 p-4 backdrop-blur-sm border border-white/20">
+            <div class="flex items-center mb-2">
+              <span class="mr-3 text-xl">🤖</span>
+              <span class="font-semibold">Custom SaaS platform (AI features included)</span>
+            </div>
+          </div>
+          <div class="rounded-xl bg-white/10 p-4 backdrop-blur-sm border border-white/20">
+            <div class="flex items-center mb-2">
+              <span class="mr-3 text-xl">🔗</span>
+              <span class="font-semibold">Client portal integration streamlining operations</span>
+            </div>
+          </div>
+          <div class="rounded-xl bg-white/10 p-4 backdrop-blur-sm border border-white/20">
+            <div class="flex items-center mb-2">
+              <span class="mr-3 text-xl">⚡</span>
+              <span class="font-semibold">Automation workflows eliminating manual tasks</span>
+            </div>
+          </div>
+          <div class="rounded-xl bg-white/10 p-4 backdrop-blur-sm border border-white/20">
+            <div class="flex items-center mb-2">
+              <span class="mr-3 text-xl">📱</span>
+              <span class="font-semibold">Mobile-responsive design for all devices</span>
+            </div>
+          </div>
+          <div class="rounded-xl bg-white/10 p-4 backdrop-blur-sm border border-white/20">
+            <div class="flex items-center mb-2">
+              <span class="mr-3 text-xl">🔒</span>
+              <span class="font-semibold">Security & compliance meeting enterprise standards</span>
+            </div>
+          </div>
+          <div class="rounded-xl bg-white/10 p-4 backdrop-blur-sm border border-white/20">
+            <div class="flex items-center mb-2">
+              <span class="mr-3 text-xl">🔄</span>
+              <span class="font-semibold">3 months of iterating and refining the product</span>
+            </div>
+          </div>
         </div>
       </article>
     {:else if index === 6}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Your SaaS Investment</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p><strong>Complete SaaS Development Package: $35,000 + 3%</strong></p>
-          <p><strong>What's Included:</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li>Custom SaaS platform (AI features included)</li>
-            <li>Client portal integration</li>
-            <li>Automation workflows eliminating manual tasks</li>
-            <li>Mobile-responsive design</li>
-            <li>Security & compliance</li>
-            <li>3 months post-launch support</li>
-            <li>Team training for seamless adoption</li>
-          </ul>
+        <div class="mb-4 inline-flex items-center rounded-full bg-blue-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">🤝</span>
+          Why You?
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Perfect Partnership</h1>
+        
+        <div class="mb-6 text-center">
+          <p class="text-lg text-white/90">Your domain expertise + our SaaS engineering = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.</p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-2">
+          <!-- You bring -->
+          <div class="rounded-xl bg-gradient-to-br from-blue-500/20 to-cyan-600/10 p-6 backdrop-blur-sm border border-blue-400/30">
+            <div class="mb-4 flex items-center">
+              <span class="mr-3 text-3xl">👑</span>
+              <h3 class="text-2xl font-bold text-blue-200">You bring:</h3>
+            </div>
+            <ul class="space-y-3 text-white/90">
+              <li class="flex items-start">
+                <span class="mr-2 mt-1 text-blue-300">•</span>
+                <span>First-hand knowledge of your market, clients, and pain points</span>
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 mt-1 text-blue-300">•</span>
+                <span>Proven service processes that have generated $80k+/month in revenue</span>
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 mt-1 text-blue-300">•</span>
+                <span>Industry credibility and relationships your competitors can't replicate</span>
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 mt-1 text-blue-300">•</span>
+                <span>First batch of users from your existing clientele (<strong>super</strong> valuable)</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- We bring -->
+          <div class="rounded-xl bg-gradient-to-br from-emerald-500/20 to-green-600/10 p-6 backdrop-blur-sm border border-emerald-400/30">
+            <div class="mb-4 flex items-center">
+              <span class="mr-3 text-3xl">⚡</span>
+              <h3 class="text-2xl font-bold text-emerald-200">We bring:</h3>
+            </div>
+            <ul class="space-y-3 text-white/90">
+              <li class="flex items-start">
+                <span class="mr-2 mt-1 text-emerald-300">•</span>
+                <span>7+ years per engineer in programming experience</span>
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 mt-1 text-emerald-300">•</span>
+                <span>2+ years in the SaaS industry, learning and building - <a href="https://www.starti.no/projects" class="text-emerald-200 underline hover:no-underline">checkout our projects</a> (old website)</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </article>
     {:else if index === 7}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Why You + Why Us</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p>Your domain expertise + our SaaS engineering = A market-ready product faster than either could do alone.</p>
-          <p><strong>You bring:</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li>First-hand knowledge of your market and pain points</li>
-            <li>Proven processes generating $75k+/month</li>
-            <li>Industry credibility and relationships</li>
-            <li>First batch of users from existing clientele</li>
-          </ul>
-          <p><strong>We bring:</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li>7+ years per engineer programming experience</li>
-            <li>2+ years in SaaS industry focus</li>
-          </ul>
+        <div class="mb-4 inline-flex items-center rounded-full bg-emerald-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">📊</span>
+          Your ROI Projection
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">The Two Levers of Return</h1>
+        
+        <div class="mb-6 text-center">
+          <p class="text-lg text-white/90">We can't guarantee exact revenue (markets vary), but we can guarantee measurable efficiency gains — your team is already leaking ~$8,000+/mo in automatable tasks. That's $100+,000/year back in capacity, without a single new client.</p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-2 mb-8">
+          <!-- Efficiency Gains -->
+          <div class="rounded-xl bg-gradient-to-br from-blue-500/20 to-cyan-600/10 p-6 backdrop-blur-sm border border-blue-400/30">
+            <div class="mb-4 flex items-center">
+              <span class="mr-3 text-3xl">⚡</span>
+              <h3 class="text-2xl font-bold text-blue-200">Efficiency + Revenue</h3>
+            </div>
+            <p class="text-white/90 text-lg">And while efficiency pays for the project on its own, the real upside is in SaaS revenue and enterprise value multiples.</p>
+          </div>
+
+          <!-- Conservative Forecast -->
+          <div class="rounded-xl bg-gradient-to-br from-emerald-500/20 to-green-600/10 p-6 backdrop-blur-sm border border-emerald-400/30">
+            <div class="mb-4 flex items-center">
+              <span class="mr-3 text-3xl">💰</span>
+              <h3 class="text-2xl font-bold text-emerald-200">Conservative 12-Month Forecast</h3>
+            </div>
+            <ul class="space-y-2 text-white/90">
+              <li><strong>~$100,000/yr</strong> saved in staff time and overhead</li>
+              <li><strong>~$72,000</strong> first-year SaaS revenue</li>
+              <li><strong>$172,000</strong> total impact on a $45,000 investment</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text-center rounded-xl bg-gradient-to-r from-orange-500/20 to-red-500/20 p-6 backdrop-blur-sm border border-orange-400/30">
+          <div class="text-2xl font-bold text-orange-200 mb-2">Payback Period: 4–6 months from efficiency gains alone</div>
+          <p class="text-white/90">(and we won't stop there!)</p>
         </div>
       </article>
     {:else if index === 8}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Your ROI Projection</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p><strong>Investment:</strong> $45,000 initial development</p>
-          <p>We guarantee measurable efficiency gains — your team is leaking ~$12,000/mo in automatable tasks.</p>
-          <p><strong>Conservative 12-Month Forecast:</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li><strong>$144,000</strong> efficiency gains</li>
-            <li><strong>~$96,000</strong> SaaS revenue</li>
-            <li><strong>~$240,000</strong> total impact</li>
-          </ul>
-          <p><strong>Payback Period:</strong> 3–5 months from efficiency gains alone</p>
+        <div class="mb-4 inline-flex items-center rounded-full bg-purple-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">📈</span>
+          SaaS Revenue Projections
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Conservative SaaS Revenue</h1>
+        
+        <div class="mb-6 text-center">
+          <p class="text-lg text-white/90">At a conservative <strong>$200/month per client</strong>:</p>
+        </div>
+
+        <div class="space-y-6">
+          <!-- Month 6 -->
+          <div class="flex items-center justify-between rounded-xl bg-gradient-to-r from-blue-500/20 to-cyan-500/20 p-6 backdrop-blur-sm border border-blue-400/30">
+            <div class="flex items-center">
+              <span class="mr-4 text-3xl">📅</span>
+              <div>
+                <h3 class="text-xl font-bold text-blue-200">Month 6</h3>
+                <p class="text-blue-300">10 clients</p>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="text-2xl font-bold text-blue-200">$2,000/month</div>
+            </div>
+          </div>
+
+          <!-- Month 9 -->
+          <div class="flex items-center justify-between rounded-xl bg-gradient-to-r from-purple-500/20 to-indigo-500/20 p-6 backdrop-blur-sm border border-purple-400/30">
+            <div class="flex items-center">
+              <span class="mr-4 text-3xl">📈</span>
+              <div>
+                <h3 class="text-xl font-bold text-purple-200">Month 9</h3>
+                <p class="text-purple-300">30 clients</p>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="text-2xl font-bold text-purple-200">$6,000/month</div>
+            </div>
+          </div>
+
+          <!-- Month 12 -->
+          <div class="flex items-center justify-between rounded-xl bg-gradient-to-r from-emerald-500/20 to-green-500/20 p-6 backdrop-blur-sm border border-emerald-400/30">
+            <div class="flex items-center">
+              <span class="mr-4 text-3xl">🚀</span>
+              <div>
+                <h3 class="text-xl font-bold text-emerald-200">Month 12</h3>
+                <p class="text-emerald-300">50 clients</p>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="text-2xl font-bold text-emerald-200">$10,000/month</div>
+            </div>
+          </div>
         </div>
       </article>
     {:else if index === 9}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Beyond Year 1</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li><strong>85% client retention</strong> for predictable SaaS income</li>
-            <li><strong>Ongoing efficiency savings</strong> every month</li>
-            <li><strong>Higher-tier upsells</strong> boosting average revenue per client</li>
-          </ul>
+        <div class="mb-4 inline-flex items-center rounded-full bg-cyan-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">🛣️</span>
+          Path to SaaS Success
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Your Proven Path to SaaS</h1>
+        
+        <div class="space-y-6">
+          <!-- Phase 1 -->
+          <div class="rounded-xl bg-gradient-to-r from-blue-500/20 to-cyan-500/20 p-6 backdrop-blur-sm border border-blue-400/30">
+            <div class="mb-4 flex items-center">
+              <div class="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-500/30">
+                <span class="text-xl font-bold">1</span>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold text-blue-200">Strategic Discovery</h3>
+                <p class="text-blue-300">Week 1</p>
+              </div>
+            </div>
+            <ul class="space-y-2 text-white/90 pl-16">
+              <li>• Deep-dive analysis of your current workflows and pain points</li>
+              <li>• Revenue & Profit optimization audit identifying automation opportunities</li>
+              <li>• Custom SaaS blueprint designed specifically for your agency and client needs</li>
+              <li>• ROI projection with 12-month financial forecasting</li>
+            </ul>
+          </div>
+
+          <!-- Phase 2 -->
+          <div class="rounded-xl bg-gradient-to-r from-purple-500/20 to-indigo-500/20 p-6 backdrop-blur-sm border border-purple-400/30">
+            <div class="mb-4 flex items-center">
+              <div class="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-purple-500/30">
+                <span class="text-xl font-bold">2</span>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold text-purple-200">MVP Development</h3>
+                <p class="text-purple-300">Week 2-5</p>
+              </div>
+            </div>
+            <div class="text-white/90 pl-16">
+              <p>Core SaaS platform built (you won't get this speed anywhere else 😉)</p>
+            </div>
+          </div>
+
+          <!-- Phase 3 -->
+          <div class="rounded-xl bg-gradient-to-r from-emerald-500/20 to-green-500/20 p-6 backdrop-blur-sm border border-emerald-400/30">
+            <div class="mb-4 flex items-center">
+              <div class="mr-4 flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500/30">
+                <span class="text-xl font-bold">3</span>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold text-emerald-200">Launch & Scale</h3>
+                <p class="text-emerald-300">Week 5-10</p>
+              </div>
+            </div>
+            <ul class="space-y-2 text-white/90 pl-16">
+              <li>• Pilot testing with select existing clients</li>
+              <li>• Iterations based on real user feedback</li>
+              <li>• Go-to-market strategy for SaaS monetization</li>
+              <li>• Team training ensuring seamless adoption</li>
+            </ul>
+          </div>
         </div>
       </article>
     {:else if index === 10}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Your Proven Path to SaaS</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p><strong>Phase 1: Strategic Discovery (Week 1)</strong><br/>Analysis, audit, SaaS blueprint, ROI projection</p>
-          <p><strong>Phase 2: MVP Development (Weeks 2–5)</strong><br/>Core platform + automation workflows</p>
-          <p><strong>Phase 3: Launch & Scale (Weeks 5–13)</strong><br/>Pilot testing, optimization, go-to-market, team training</p>
+        <div class="mb-4 inline-flex items-center rounded-full bg-orange-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">🔐</span>
+          Secure Your SaaS Development
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Only 2 Spots Available This Quarter</h1>
+        
+        <div class="mb-8 rounded-xl bg-gradient-to-r from-red-500/20 to-orange-500/20 p-6 backdrop-blur-sm border border-red-400/30">
+          <div class="text-center">
+            <div class="mb-4 text-3xl">⏰</div>
+            <p class="text-lg text-white/90">Due to our hands-on approach and commitment to quality, we limit ourselves to 2 agency SaaS projects per quarter. We are extremely picky with who we choose to work with to increase the chances of success.</p>
+          </div>
+        </div>
+
+        <div class="text-center rounded-xl bg-gradient-to-r from-emerald-500/20 to-green-500/20 p-8 backdrop-blur-sm border border-emerald-400/30">
+          <div class="mb-6 text-4xl">🎯</div>
+          <h2 class="mb-4 text-3xl font-bold text-emerald-200">Let's fucking do this.</h2>
+          <p class="text-lg text-white/90 mb-6">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
         </div>
       </article>
     {:else if index === 11}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Secure Your SaaS Development</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p><strong>Only 2 Spots Available This Quarter</strong></p>
-          <p>Due to our hands-on approach, we limit ourselves to 2 agency SaaS projects per quarter.</p>
-          <p><strong>To secure your spot:</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li><strong>1. Strategy Call</strong> (45 minutes, free)</li>
-            <li><strong>2. Project Scoping Session</strong> (requirements, timeline)</li>
-            <li><strong>3. Contract & Kickoff</strong> (50% deposit to begin)</li>
-          </ul>
+        <div class="mb-4 inline-flex items-center rounded-full bg-green-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">📞</span>
+          Let's Connect
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Ready to Transform Your Agency?</h1>
+        
+        <div class="mb-8 text-center">
+          <p class="text-lg text-white/90">Reach out on any of these:</p>
+        </div>
+
+        <div class="space-y-6">
+          <!-- Instagram -->
+          <div class="flex items-center justify-center rounded-xl bg-gradient-to-r from-pink-500/20 to-purple-500/20 p-6 backdrop-blur-sm border border-pink-400/30">
+            <div class="flex items-center">
+              <span class="mr-4 text-4xl">📸</span>
+              <div>
+                <h3 class="text-xl font-bold text-pink-200">Instagram</h3>
+                <a href="https://www.instagram.com/horheyjorge_/" class="text-pink-300 underline hover:no-underline" target="_blank">@horheyjorge_</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="flex items-center justify-center rounded-xl bg-gradient-to-r from-green-500/20 to-emerald-500/20 p-6 backdrop-blur-sm border border-green-400/30">
+            <div class="flex items-center">
+              <span class="mr-4 text-4xl">📱</span>
+              <div>
+                <h3 class="text-xl font-bold text-green-200">WhatsApp (feel free to call)</h3>
+                <a href="https://wa.me/85297473013" class="text-green-300 underline hover:no-underline" target="_blank">+852 9747 3013</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="flex items-center justify-center rounded-xl bg-gradient-to-r from-blue-500/20 to-cyan-500/20 p-6 backdrop-blur-sm border border-blue-400/30">
+            <div class="flex items-center">
+              <span class="mr-4 text-4xl">📧</span>
+              <div>
+                <h3 class="text-xl font-bold text-blue-200">Email</h3>
+                <a href="mailto:jorge.lewis@starti.no" class="text-blue-300 underline hover:no-underline">jorge.lewis@starti.no</a>
+              </div>
+            </div>
+          </div>
         </div>
       </article>
     {:else if index === 12}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Ready to Transform Your Agency?</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p>Don't let another quarter pass trading time for money.</p>
-          <p><strong>Schedule Your Strategy Call Today</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li><strong>📞 (555) 123-4567</strong></li>
-            <li><strong>📧 hello@youragency.com</strong></li>
-          </ul>
-          <p><em>Call within 48 hours and receive a complimentary market analysis ($2,500 value, free)</em></p>
+        <div class="mb-4 inline-flex items-center rounded-full bg-yellow-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">💎</span>
+          Total Year 1 Financial Impact
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Your Complete ROI Picture</h1>
+        
+        <div class="space-y-6">
+          <!-- Efficiency Gains -->
+          <div class="rounded-xl bg-gradient-to-r from-blue-500/20 to-cyan-500/20 p-6 backdrop-blur-sm border border-blue-400/30">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center">
+                <span class="mr-4 text-3xl">⚡</span>
+                <div>
+                  <h3 class="text-xl font-bold text-blue-200">Efficiency Gains</h3>
+                  <p class="text-blue-300">Saved in staff time and overhead</p>
+                </div>
+              </div>
+              <div class="text-2xl font-bold text-blue-200">~$100,000</div>
+            </div>
+          </div>
+
+          <!-- SaaS Revenue -->
+          <div class="rounded-xl bg-gradient-to-r from-emerald-500/20 to-green-500/20 p-6 backdrop-blur-sm border border-emerald-400/30">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center">
+                <span class="mr-4 text-3xl">💰</span>
+                <div>
+                  <h3 class="text-xl font-bold text-emerald-200">First-Year SaaS Revenue</h3>
+                  <p class="text-emerald-300">Conservative projection</p>
+                </div>
+              </div>
+              <div class="text-2xl font-bold text-emerald-200">~$72,000</div>
+            </div>
+          </div>
+
+          <!-- Total Impact -->
+          <div class="rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 p-8 backdrop-blur-sm border border-purple-400/30">
+            <div class="text-center">
+              <div class="mb-4 text-4xl">🚀</div>
+              <h3 class="text-3xl font-bold text-purple-200 mb-2">$172,000 Total Impact</h3>
+              <p class="text-lg text-white/90 mb-4">On a $45,000 investment</p>
+              <div class="text-xl font-bold text-orange-200">Payback Period: 4–6 months from efficiency gains alone</div>
+            </div>
+          </div>
+        </div>
+      </article>
+    {:else if index === 13}
+      <article class="w-full max-w-5xl text-left">
+        <div class="mb-4 inline-flex items-center rounded-full bg-cyan-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">🌟</span>
+          SaaS Revenue Projections
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Conservative SaaS Revenue (at $200/month per client)</h1>
+        
+        <div class="grid gap-6 md:grid-cols-3">
+          <!-- Month 6 -->
+          <div class="text-center rounded-xl bg-gradient-to-br from-blue-500/20 to-cyan-600/10 p-6 backdrop-blur-sm border border-blue-400/30">
+            <div class="mb-4 text-4xl">📅</div>
+            <h3 class="text-xl font-bold text-blue-200 mb-2">Month 6</h3>
+            <div class="text-2xl font-bold text-blue-200 mb-2">$2,000/month</div>
+            <p class="text-blue-300">from 10 clients</p>
+          </div>
+
+          <!-- Month 9 -->
+          <div class="text-center rounded-xl bg-gradient-to-br from-purple-500/20 to-indigo-600/10 p-6 backdrop-blur-sm border border-purple-400/30">
+            <div class="mb-4 text-4xl">📈</div>
+            <h3 class="text-xl font-bold text-purple-200 mb-2">Month 9</h3>
+            <div class="text-2xl font-bold text-purple-200 mb-2">$6,000/month</div>
+            <p class="text-purple-300">from 30 clients</p>
+          </div>
+
+          <!-- Month 12 -->
+          <div class="text-center rounded-xl bg-gradient-to-br from-emerald-500/20 to-green-600/10 p-6 backdrop-blur-sm border border-emerald-400/30">
+            <div class="mb-4 text-4xl">🚀</div>
+            <h3 class="text-xl font-bold text-emerald-200 mb-2">Month 12</h3>
+            <div class="text-2xl font-bold text-emerald-200 mb-2">$10,000/month</div>
+            <p class="text-emerald-300">from 50 clients</p>
+          </div>
+        </div>
+      </article>
+    {:else if index === 14}
+      <article class="w-full max-w-5xl text-left">
+        <div class="mb-4 inline-flex items-center rounded-full bg-purple-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">🔮</span>
+          Beyond Year 1
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">The Long-Term Vision</h1>
+        
+        <div class="space-y-6">
+          <div class="rounded-xl bg-gradient-to-br from-emerald-500/20 to-green-600/10 p-6 backdrop-blur-sm border border-emerald-400/30">
+            <div class="mb-3 flex items-center">
+              <span class="mr-3 text-2xl">🎯</span>
+              <span class="text-lg font-semibold text-emerald-200">85% client retention</span>
+            </div>
+            <p class="text-white/90">for predictable SaaS income</p>
+          </div>
+
+          <div class="rounded-xl bg-gradient-to-br from-blue-500/20 to-cyan-600/10 p-6 backdrop-blur-sm border border-blue-400/30">
+            <div class="mb-3 flex items-center">
+              <span class="mr-3 text-2xl">⚡</span>
+              <span class="text-lg font-semibold text-blue-200">Ongoing efficiency savings</span>
+            </div>
+            <p class="text-white/90">every month</p>
+          </div>
+
+          <div class="rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-600/10 p-6 backdrop-blur-sm border border-purple-400/30">
+            <div class="mb-3 flex items-center">
+              <span class="mr-3 text-2xl">📈</span>
+              <span class="text-lg font-semibold text-purple-200">Higher-tier upsells</span>
+            </div>
+            <p class="text-white/90">boosting average revenue per client</p>
+          </div>
         </div>
       </article>
     {:else}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">About Your SaaS Development Team</h1>
-        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p><strong>🎖️ Elite Development Expertise</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li>15+ years in agency SaaS development</li>
-            <li>$50M+ in client SaaS revenue generated</li>
-            <li>100% project success rate with agencies</li>
-          </ul>
-          <p><strong>🤝 Agency-First Approach</strong></p>
-          <ul class="list-disc list-outside pl-6 marker:text-white/80 space-y-2">
-            <li>Deep understanding of agency operations</li>
-            <li>Ongoing partnership beyond initial development</li>
-            <li>Success-based relationships aligned with your growth</li>
-          </ul>
+        <div class="mb-4 inline-flex items-center rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
+          <span class="mr-2">🎉</span>
+          Thank You
+        </div>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Ready to Turn Your Agency Into a SaaS Powerhouse?</h1>
+        
+        <div class="text-center space-y-8">
+          <div class="text-6xl mb-4">🚀</div>
+          <p class="text-xl text-white/90 mb-8">The future belongs to agencies that build their own proprietary tools.</p>
+          
+          <div class="rounded-xl bg-gradient-to-r from-emerald-500/20 to-green-500/20 p-8 backdrop-blur-sm border border-emerald-400/30">
+            <h2 class="text-2xl font-bold text-emerald-200 mb-4">Get Started Today</h2>
+            <p class="text-lg text-white/90 mb-6">Contact us to secure one of our limited spots this quarter.</p>
+            <div class="space-y-3 text-emerald-300">
+              <div>📧 jorge.lewis@starti.no</div>
+              <div>📱 +852 9747 3013</div>
+              <div>📸 @horheyjorge_</div>
+            </div>
+          </div>
         </div>
       </article>
     {/if}

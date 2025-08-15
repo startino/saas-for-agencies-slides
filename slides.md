@@ -1,52 +1,39 @@
-Transform Your Agency Into a Scalable SaaS Powerhouse
+# Turn Your Agency Into a Scalable SaaS Powerhouse
 
-Custom SaaS Development for Digital Agencies Generating $1M/yr
+<!-- Test comment - if you see this, hot reload is working! -->
 
-The $75k+ Agency Dilemma
+We build (AI) SaaS for Digital Agencies (doing $1M+/yr), whether to sell to other agencies (white-label) or productize your services and sell directly to customers.
 
-You've built a successful agency generating $1M+ every year, but...
+## Your Agency’s Problem
 
-75% of your revenue depends on YOU being involved in every project
+You've built a successful agency, but...
 
-**Your team spends 40+ hours/week (costing you $12,000/mo [1]) on repetitive, manual tasks**
+- 75% of your revenue depends on YOU being involved in every project
+- **Your team spends 40+ hours/week (costing you $8,000+/mo) on repetitive, manual tasks**
+- Your agency valuation multiple is capped at 1–2x revenue due to service-heavy operations
 
-Client demands are increasing while your margins shrink
-
-You're trading time for money instead of building scalable value
-
-Your agency valuation multiple is capped at 1–2x revenue due to service-heavy operations
-
-Most agencies (44.5%) plateau at $100k-$200k/month because they can't escape the scaling challenges of operations, training, and delegation.
-
-The Million-Dollar Opportunity
+## The New Opportunity
 
 What if your agency could:
 
-✅ Generate 40% of revenue from recurring SaaS subscriptions✅ Reduce operational costs by $250k+ annually through automation✅ Scale to $5M+ ARR without hiring proportionally more staff✅ Command 3-5x higher agency valuations with SaaS revenue
+- ✅ Generate 40% of revenue from recurring SaaS subscriptions
+- ✅ Save $250k+ annually through automation ($1M/yr sounds nice until you realize you actually only take home low 6 figures…)
+- ✅ Scale without hiring proportionally more staff
+- ✅ Command 3-5x higher valuations
 
-Why Agencies Choose Our SaaS Development
+In two years, the only agencies left standing will be those offering clients their own proprietary SaaS tools. Everyone else will become a reseller for someone else’s software.
 
-⚡ Rapid Time-to-Market
+## What We Hope to Achieve With You
 
-8-12 week delivery vs. 6+ months with other companies
+(not our case-studies)
 
-We're an AI-first company that uses AI to reach results faster than everyone else
-
-💰 Industry Expertise
-
-**We've spent the past 1.5yrs building SaaS solutions for other clients**
-
-We've been deep in the hole trying to learn as much about the SaaS industry as possible (our goal is to eventually build our own with our own funding)
-
-This could be you
-
-MarketFlow Digital - $120k/Month Agency
+**MarketFlow Digital - $120k/Month Agency**
 
 Challenge: Manual campaign management eating 70% of team capacity
 
 Solution: Custom marketing automation SaaS with client self-service portals
 
-Results:
+**Results:**
 
 $480k additional annual revenue from SaaS subscriptions
 
@@ -56,29 +43,26 @@ $480k additional annual revenue from SaaS subscriptions
 
 Staff productivity increased 250% allowing focus on strategy
 
-GrowthLab Agency - $95k/Month Agency
+**GrowthLab Agency - $95k/Month Agency**
 
 Challenge: Clients demanding real-time reporting and advanced analytics
 
 Solution: White-label analytics platform with automated reporting
 
-Results:
+**Results:**
 
-$350k new ARR within 12 months of launch
+- $350k new ARR within 12 months of launch
+- Client churn reduced by 55% due to superior tool value
+- 3.2x agency valuation increase when sold 18 months later
+- 85% of clients upgraded to premium SaaS tiers
 
-Client churn reduced by 55% due to superior tool value
+## Your SaaS Investment Breakdown
 
-3.2x agency valuation increase when sold 18 months later
-
-85% of clients upgraded to premium SaaS tiers
-
-Your SaaS Investment Breakdown
-
-Complete SaaS Development Package: $35,000 + 3%
+Complete SaaS Development Package: $45,000 + 3% revenue share
 
 What's Included:
 
-✅ Custom SaaS platform designed for your agency (AI Features included)
+✅ Custom SaaS platform (AI features included)
 
 ✅ Client portal integration streamlining operations
 
@@ -88,172 +72,94 @@ What's Included:
 
 ✅ Security & compliance meeting enterprise standards
 
-✅ 3 months post-launch support ensuring smooth operation
+✅ 3 months of iterating and refining the product
 
-✅ Team training for seamless adoption
-
-Why You?
+## Why You?
 
 Your domain expertise + our SaaS engineering = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.
 
-You bring:
+**You bring:**
 
-First-hand knowledge of your market, clients, and pain points
+- First-hand knowledge of your market, clients, and pain points
+- Proven service processes that have generated $80k+/month in revenue
+- Industry credibility and relationships your competitors can’t replicate
+- First batch of users from your existing clientele (**super** valuable)
 
-Proven service processes that have generated $75k+/month in revenue
+**We bring:**
 
-Industry credibility and relationships your competitors can’t replicate
+- 7+ years per engineer in programming experience
+- 2+ years in the SaaS industry, learning and building - [checkout our projects](https://www.starti.no/projects) (old website)
 
-First batch of users from your existing clientele
+## Your ROI Projection
 
-We bring:
+**The Two Levers of Return:** Efficiency + Revenue
 
-7+ years per engineer in programming experience
-
-2+ years in the SaaS industry, learning and building.
-
-Your ROI Projection
-
-The Two Levers of Return: Efficiency + Revenue
-
-Investment: $45,000 initial development
-
-We can’t guarantee exact revenue (markets vary), but we can guarantee measurable efficiency gains — your team is already leaking ~$12,000/mo in automatable tasks. That’s $144,000/year back in capacity, without a single new client.
+We can’t guarantee exact revenue (markets vary), but we can guarantee measurable efficiency gains — your team is already leaking ~$8,000+/mo in automatable tasks. That’s $100+,000/year back in capacity, without a single new client.
 
 And while efficiency pays for the project on its own, the real upside is in SaaS revenue and enterprise value multiples.
 
-Conservative 12-Month Forecast
+## Conservative 12-Month Forecast
 
-Efficiency Gains:
+**Efficiency Gains:**
 
-$12,000/month saved in staff time and overhead
+~$100,000/yr saved in staff time and overhead
 
-Annualized impact: $144,000
+**SaaS Revenue Projections (at a conservative $200/month per client):**
 
-SaaS Revenue Projections (at $200/month per client):
+Month 6: $2,000/month from 10 clients
 
-Month 3: $2,000/month from 10 clients
+Month 9: $6,000/month from 30 clients
 
-Month 6: $6,000/month from 30 clients
+Month 12: $10,000/month from 50 clients
 
-Month 9: $10,000/month from 50 clients
+**Total Year 1 Financial Impact:**
 
-Month 12: $14,000/month from 70 clients
+~$100,000 efficiency gains
 
-Total Year 1 Financial Impact:
+~$72,000 first-year SaaS revenue
 
-$144,000 efficiency gains
+$172,000 total impact on a $45,000 investment (and we won’t stop there!)
 
-~$96,000 SaaS revenue
+**Payback Period:** 4–6 months from efficiency gains alone.
 
-~$240,000 total impact on a $45,000 investment
+## Path to SaaS Success
 
-Payback Period: 3–5 months from efficiency gains alone.Beyond Year 1:
-
-85% client retention for predictable SaaS income
-
-Ongoing efficiency savings every month
-
-Higher-tier upsells boosting average revenue per client
-
-Your Proven Path to SaaS Success
-
-Phase 1: Strategic Discovery (Week 1)
+**Phase 1: Strategic Discovery (Week 1)**
 
 Deep-dive analysis of your current workflows and pain points
 
-Revenue optimization audit identifying automation opportunities
+Revenue & Profit optimization audit identifying automation opportunities
 
-Custom SaaS blueprint designed specifically for your agency's needs
+Custom SaaS blueprint designed specifically for your agency and client needs
 
 ROI projection with 12-month financial forecasting
 
-Phase 2: MVP Development (Week 2-5)
+**Phase 2: MVP Development (Week 2-5)**
 
-Core SaaS platform built with your agency's exact specifications
+Core SaaS platform built (you won’t get this speed anywhere else 😉)
 
-Automation workflows eliminating 60%+ of manual tasks for yourself
-
-Phase 3: Launch & Scale (Week 5-13)
+**Phase 3: Launch & Scale (Week 5-10)**
 
 Pilot testing with select existing clients
 
-Performance optimization based on real user feedback
+Iterations based on real user feedback
 
 Go-to-market strategy for SaaS monetization
 
 Team training ensuring seamless adoption
 
-Secure Your SaaS Development
+## Secure Your SaaS Development
 
-Only 2 Spots Available This Quarter
+Only 2 Spots Available This Quarter.
 
-Due to our hands-on approach and commitment to quality, we limit ourselves to 2 agency SaaS projects per quarter. We are extremely picky with who we choose to work with.
+Due to our hands-on approach and commitment to quality, we limit ourselves to 2 agency SaaS projects per quarter. We are extremely picky with who we choose to work with to increase the chances of success.
 
-To secure your spot:
-
-1. Schedule Strategy Call (45 minutes, free)
-
-Discuss your specific agency needs and SaaS feasibility.
-
-2. Project Scoping Session
-
-Detailed technical requirements gathering
-
-Custom feature specification
-
-Final project timeline and investment confirmation
-
-3. Contract Signing & Project Kickoff
-
-50% deposit to begin development
-
-Project timeline finalization
-
-Team introductions and communication setup
-
-Ready to Transform Your Agency?
-
-Don't let another quarter pass trading time for money.
+## Let’s fucking do this.
 
 Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.
 
-Schedule Your Strategy Call Today
+Reach out on any of these:
 
-[BOOK YOUR CALL] - 📞 (555) 123-4567**[SEND MESSAGE] - 📧 **hello@youragency.com
-
-Call within 48 hours and receive a complimentary market analysis showing exactly how SaaS could transform your specific agency ($2,500 value, free)
-
-About Your SaaS Development Team
-
-🎖️ Elite Development Expertise
-
-15+ years in agency SaaS development
-
-$50M+ in client SaaS revenue generated
-
-100% project success rate with agency clients
-
-Advanced certifications in modern SaaS technologies
-
-🤝 Agency-First Approach
-
-Deep understanding of agency operations and challenges
-
-Proven methodologies specific to service-business automation
-
-Ongoing partnership beyond initial development
-
-Success-based relationships aligned with your growth
-
-🚀 Technology Leadership
-
-Cutting-edge tech stack ensuring scalability and performance
-
-Security-first development meeting enterprise standards
-
-Mobile-optimized platforms for modern workflow demands
-
-Future-proof architecture growing with your business
-
-[1] https://agencycpas.com/profitability/agency-revenue-per-employee/
+- Instagram: [https://instagram/horheyjorge\_](https://www.instagram.com/horheyjorge_/)
+- WhatsApp (feel free to call): +852 9747 3013
+- Email: jorge.lewis@starti.no
