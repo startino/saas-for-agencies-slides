@@ -1,6 +1,6 @@
 <script lang="ts">
   let index = 0;
-  const numSlides = 13;
+  const numSlides = 14;
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
@@ -146,8 +146,8 @@
         <div class="rounded-xl bg-zinc-800/60 p-8 backdrop-blur-sm border border-zinc-700/50">
           <div class="flex items-center mb-4">
             <div>
-              <h3 class="text-3xl font-bold text-white">MarketFlow Digital</h3>
-              <p class="text-white/80 text-lg">$120k/Month Agency</p>
+              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">MarketFlow Digital</h3>
+              <p class="text-white/80 text-sm sm:text-base lg:text-lg">$120k/Month Agency</p>
             </div>
           </div>
           <div class="grid gap-4 md:grid-cols-2">
@@ -179,8 +179,8 @@
         <div class="rounded-xl bg-zinc-800/60 p-8 backdrop-blur-sm border border-zinc-700/50">
           <div class="flex items-center mb-4">
             <div>
-              <h3 class="text-3xl font-bold text-white">GrowthLab Agency</h3>
-              <p class="text-white/80 text-lg">$95k/Month Agency</p>
+              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">GrowthLab Agency</h3>
+              <p class="text-white/80 text-sm sm:text-base lg:text-lg">$95k/Month Agency</p>
             </div>
           </div>
           <div class="grid gap-4 md:grid-cols-2">
@@ -206,8 +206,8 @@
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your SaaS Investment Breakdown</h1>
         
-        <div class="mb-8 rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
-          <div class="text-center mb-4 flex items-center justify-center">
+        <div class="mb-8 rounded-xl bg-zinc-800/60 py-8 px-6 backdrop-blur-sm border border-zinc-700/50">
+          <div class="text-center">
             <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-white">$45,000 + 3% revenue share</div>
           </div>
         </div>
@@ -243,10 +243,14 @@
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Why You?</h1>
         
-        <div class="mb-6 text-left">
-          <p class="text-base sm:text-lg text-white/90">Your domain expertise + our SaaS engineering = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.</p>
+        <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
+          <p>Your domain expertise + our SaaS engineering = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.</p>
         </div>
-
+      </article>
+    {:else if index === 7}
+      <article class="w-full max-w-5xl text-left">
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Why You?</h1>
+        
         <div class="grid gap-4 sm:gap-6 grid-cols-1 md:grid-cols-2">
           <!-- You bring -->
           <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
@@ -289,7 +293,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 7}
+    {:else if index === 8}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your ROI Projection</h1>
         
@@ -298,7 +302,7 @@
           <p class="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">And while efficiency pays for the project on its own, the real upside is in SaaS revenue and enterprise value multiples.</p>
         </div>
       </article>
-    {:else if index === 8}
+    {:else if index === 9}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your ROI Projection</h1>
 
@@ -342,7 +346,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 9}
+    {:else if index === 10}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Path to SaaS Success</h1>
         
@@ -396,7 +400,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 10}
+    {:else if index === 11}
       <article class="w-full max-w-5xl text-center">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Secure Your SaaS Development</h1>
         
@@ -410,7 +414,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 11}
+    {:else if index === 12}
       <article class="w-full max-w-5xl text-center">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Let's fucking do this.</h1>
         
@@ -423,7 +427,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 12}
+    {:else if index === 13}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Let's Connect</h1>
         
