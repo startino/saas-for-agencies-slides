@@ -82,19 +82,31 @@
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">👨‍💼</span>
-                <p class="text-sm sm:text-base text-white/90">75% of your revenue depends on YOU being involved in every project</p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">75% of your revenue depends on YOU being involved in every project</p>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">💸</span>
-                <p class="text-sm sm:text-base text-white/90"><strong>Your team spends 40+ hours/week (costing you $8,000+/mo) on repetitive, manual tasks</strong></p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>Your team spends 40+ hours/week (costing you $8,000+/mo) on repetitive, manual tasks</strong></p>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">📉</span>
-                <p class="text-sm sm:text-base text-white/90">Your agency valuation multiple is capped at 1–2x revenue due to service-heavy operations</p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">Your agency valuation multiple is capped at 1–2x revenue due to service-heavy operations</p>
+              </div>
+            </div>
+            <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
+              <div class="flex items-center">
+                <span class="mr-3 text-xl sm:text-2xl">💤</span>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">No passive income — revenue resets monthly; SaaS compounds with MRR</p>
+              </div>
+            </div>
+            <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
+              <div class="flex items-center">
+                <span class="mr-3 text-xl sm:text-2xl">🧠</span>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">Service work is overwhelming and non-repeatable; SaaS is calmer and scalable</p>
               </div>
             </div>
           </div>
@@ -111,25 +123,25 @@
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">✅</span>
-                <p class="text-sm sm:text-base text-white/90">Generate <strong>40% of revenue</strong> from recurring SaaS subscriptions</p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">Create a new recurring income stream (<strong>MRR</strong>)</p>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">✅</span>
-                <p class="text-sm sm:text-base text-white/90">Save <strong>$250k+ annually</strong> through automation</p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">Build a long‑term product asset your clients rely on</p>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">✅</span>
-                <p class="text-sm sm:text-base text-white/90">Scale without hiring proportionally more staff</p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">Automate delivery and operations end‑to‑end</p>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">✅</span>
-                <p class="text-sm sm:text-base text-white/90">Command <strong>3-5x higher valuations</strong></p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">Increase enterprise value and valuation multiple</p>
               </div>
             </div>
           </div>
