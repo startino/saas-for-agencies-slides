@@ -203,7 +203,6 @@
                 <li>• <strong>$350k</strong> new ARR within 12 months of launch</li>
                 <li>• Client churn reduced by <strong>55%</strong> due to superior tool value</li>
                 <li>• <strong>3.2x</strong> agency valuation increase when sold 18 months later</li>
-                <li>• <strong>85%</strong> of clients upgraded to premium SaaS tiers</li>
               </ul>
             </div>
           </div>
@@ -422,10 +421,10 @@
         </div>
       </article>
     {:else if index === 12}
-      <article class="w-full max-w-5xl text-center">
+      <article class="w-full max-w-5xl text-right">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Let's fucking do this.</h1>
         
-        <div class="mb-8 text-center">
+        <div class="mb-8 text-right">
           <p class="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
         </div>
 
