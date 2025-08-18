@@ -159,14 +159,14 @@
           </div>
           <div class="grid gap-3 sm:gap-4 md:grid-cols-2">
             <div>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Challenge:</h4>
-              <p class="text-white/90 mb-3 sm:mb-4">Manual campaign management eating 70% of team capacity</p>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Solution:</h4>
-              <p class="text-white/90">Custom marketing automation SaaS with client self-service portals</p>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Challenge:</h4>
+              <p class="text-white/90 mb-3 sm:mb-4 md:text-lg">Manual campaign management eating 70% of team capacity</p>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Solution:</h4>
+              <p class="text-white/90 md:text-lg">Custom marketing automation SaaS with client self-service portals</p>
             </div>
             <div>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Results:</h4>
-              <ul class="space-y-2 text-white/90">
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Results:</h4>
+              <ul class="space-y-2 text-white/90 md:text-lg">
                 <li>• <strong>$480k</strong> additional annual revenue from SaaS subscriptions</li>
                 <li>• <strong>65%</strong> reduction in manual campaign tasks</li>
                 <li>• Staff productivity increased <strong>250%</strong> allowing focus on strategy</li>
@@ -192,14 +192,14 @@
           </div>
           <div class="grid gap-3 sm:gap-4 md:grid-cols-2">
             <div>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Challenge:</h4>
-              <p class="text-white/90 mb-3 sm:mb-4">Clients demanding real-time reporting and advanced analytics</p>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Solution:</h4>
-              <p class="text-white/90">White-label analytics platform with automated reporting</p>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Challenge:</h4>
+              <p class="text-white/90 mb-3 sm:mb-4 md:text-lg">Clients demanding real-time reporting and advanced analytics</p>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Solution:</h4>
+              <p class="text-white/90 md:text-lg">White-label analytics platform with automated reporting</p>
             </div>
             <div>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Results:</h4>
-              <ul class="space-y-2 text-white/90">
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Results:</h4>
+              <ul class="space-y-2 text-white/90 md:text-lg">
                 <li>• <strong>$350k</strong> new ARR within 12 months of launch</li>
                 <li>• Client churn reduced by <strong>55%</strong> due to superior tool value</li>
                 <li>• <strong>3.2x</strong> agency valuation increase when sold 18 months later</li>
