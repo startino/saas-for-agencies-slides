@@ -103,12 +103,7 @@
                 <p class="text-sm sm:text-base md:text-lg text-white/90">No passive income — revenue resets monthly; SaaS compounds with MRR</p>
               </div>
             </div>
-            <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-              <div class="flex items-center">
-                <span class="mr-3 text-xl sm:text-2xl">🧠</span>
-                <p class="text-sm sm:text-base md:text-lg text-white/90">Service work is overwhelming and non-repeatable; SaaS is calmer and scalable</p>
-              </div>
-            </div>
+
           </div>
         </div>
       </article>
@@ -123,7 +118,7 @@
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">✅</span>
-                <p class="text-sm sm:text-base md:text-lg text-white/90">Create a new recurring income stream (<strong>MRR</strong>)</p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">Create a new recurring income stream</p>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
