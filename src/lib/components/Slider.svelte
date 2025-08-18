@@ -65,7 +65,7 @@
     {/if}
   </div>
 
-  <div class="relative mx-auto flex h-full w-full max-w-7xl items-center justify-center p-4 sm:p-6 lg:p-12">
+  <div class="relative mx-auto flex h-full w-full max-w-7xl items-start justify-start sm:items-center sm:justify-center p-4 sm:p-6 lg:p-12 overflow-y-auto overscroll-y-contain pb-24 sm:pb-0">
     {#if index === 0}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">Scale Your Agency with a SaaS</h1>
@@ -104,7 +104,7 @@
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">The New Opportunity</h1>
         <div class="mb-8">
-          <h2 class="text-lg sm:text-xl md:text-2xl font-bold text-white/90 mb-6">In two years, the only agencies left standing will be those offering clients their own proprietary SaaS tools. Everyone else will become a reseller for someone else's software.</h2>
+          <h2 class="text-lg sm:text-xl md:text-2xl text-white/90 mb-6">In two years, the only agencies left standing will be those offering clients their own proprietary SaaS tools. Everyone else will become a reseller for someone else's software.</h2>
         </div>
         <div class="space-y-6">
           <div class="grid gap-4 sm:gap-6 grid-cols-1 md:grid-cols-2">
@@ -137,28 +137,28 @@
       </article>
     {:else if index === 3}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What We Want to Achieve</h1>
-        <div class="text-lg leading-snug text-white/90 mb-6">
+        <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What We Want to Achieve</h1>
+        <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
           <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
         </div>
         
         <!-- MarketFlow Digital Case Study -->
-        <div class="rounded-xl bg-zinc-800/60 p-8 backdrop-blur-sm border border-zinc-700/50">
+        <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-8 backdrop-blur-sm border border-zinc-700/50">
           <div class="flex items-center mb-4">
             <div>
               <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">MarketFlow Digital</h3>
               <p class="text-white/80 text-sm sm:text-base lg:text-lg">$120k/Month Agency</p>
             </div>
           </div>
-          <div class="grid gap-4 md:grid-cols-2">
+          <div class="grid gap-3 sm:gap-4 md:grid-cols-2">
             <div>
-              <h4 class="font-semibold mb-2 text-white text-lg">Challenge:</h4>
-              <p class="text-white/90 mb-4">Manual campaign management eating 70% of team capacity</p>
-              <h4 class="font-semibold mb-2 text-white text-lg">Solution:</h4>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Challenge:</h4>
+              <p class="text-white/90 mb-3 sm:mb-4">Manual campaign management eating 70% of team capacity</p>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Solution:</h4>
               <p class="text-white/90">Custom marketing automation SaaS with client self-service portals</p>
             </div>
             <div>
-              <h4 class="font-semibold mb-2 text-white text-lg">Results:</h4>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Results:</h4>
               <ul class="space-y-2 text-white/90">
                 <li>• <strong>$480k</strong> additional annual revenue from SaaS subscriptions</li>
                 <li>• <strong>65%</strong> reduction in manual campaign tasks</li>
@@ -170,28 +170,28 @@
       </article>
     {:else if index === 4}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What We Want to Achieve</h1>
-        <div class="text-lg leading-snug text-white/90 mb-6">
+        <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What We Want to Achieve</h1>
+        <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
           <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
         </div>
         
         <!-- GrowthLab Agency Case Study -->
-        <div class="rounded-xl bg-zinc-800/60 p-8 backdrop-blur-sm border border-zinc-700/50">
+        <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-8 backdrop-blur-sm border border-zinc-700/50">
           <div class="flex items-center mb-4">
             <div>
               <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">GrowthLab Agency</h3>
               <p class="text-white/80 text-sm sm:text-base lg:text-lg">$95k/Month Agency</p>
             </div>
           </div>
-          <div class="grid gap-4 md:grid-cols-2">
+          <div class="grid gap-3 sm:gap-4 md:grid-cols-2">
             <div>
-              <h4 class="font-semibold mb-2 text-white text-lg">Challenge:</h4>
-              <p class="text-white/90 mb-4">Clients demanding real-time reporting and advanced analytics</p>
-              <h4 class="font-semibold mb-2 text-white text-lg">Solution:</h4>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Challenge:</h4>
+              <p class="text-white/90 mb-3 sm:mb-4">Clients demanding real-time reporting and advanced analytics</p>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Solution:</h4>
               <p class="text-white/90">White-label analytics platform with automated reporting</p>
             </div>
             <div>
-              <h4 class="font-semibold mb-2 text-white text-lg">Results:</h4>
+              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg">Results:</h4>
               <ul class="space-y-2 text-white/90">
                 <li>• <strong>$350k</strong> new ARR within 12 months of launch</li>
                 <li>• Client churn reduced by <strong>55%</strong> due to superior tool value</li>
