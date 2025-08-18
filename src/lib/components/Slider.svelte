@@ -54,12 +54,12 @@
   
 
   <!-- Navigation hints -->
-  <div class="absolute top-4 left-6 text-xs text-white/50 z-10 pointer-events-none">
+  <div class="absolute top-4 left-6 text-xs text-white/50 z-10 pointer-events-none hidden sm:block">
     {#if index > 0}
       ← Click here to go back
     {/if}
   </div>
-  <div class="absolute top-4 right-6 text-xs text-white/50 z-10 pointer-events-none">
+  <div class="absolute top-4 right-6 text-xs text-white/50 z-10 pointer-events-none hidden sm:block">
     {#if index < numSlides - 1}
       Click here to go forward →
     {/if}
