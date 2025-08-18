@@ -1,6 +1,6 @@
 <script lang="ts">
   let index = 0;
-  const numSlides = 14;
+  const numSlides = 13;
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
@@ -211,50 +211,13 @@
       </article>
     {:else if index === 5}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your SaaS Investment Breakdown</h1>
-        
-        <div class="mb-8 rounded-xl bg-zinc-800/60 py-8 px-6 backdrop-blur-sm border border-zinc-700/50">
-          <div class="text-center">
-            <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-white">$45,000 + 3% revenue share</div>
-          </div>
-        </div>
-
-        <div class="grid gap-4 grid-cols-1 sm:grid-cols-2">
-          <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
-            <div class="flex items-center">
-              <span class="mr-3 text-xl">🤖</span>
-              <span class="font-semibold">Custom SaaS platform (AI features included)</span>
-            </div>
-          </div>
-          <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
-            <div class="flex items-center">
-              <span class="mr-3 text-xl">🔗</span>
-              <span class="font-semibold">Client portal integration streamlining operations</span>
-            </div>
-          </div>
-          <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
-            <div class="flex items-center">
-              <span class="mr-3 text-xl">⚡</span>
-              <span class="font-semibold">Automation workflows eliminating manual tasks</span>
-            </div>
-          </div>
-          <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
-            <div class="flex items-center">
-              <span class="mr-3 text-xl">🔄</span>
-              <span class="font-semibold">3 months of iterating and refining the product after initial build</span>
-            </div>
-          </div>
-        </div>
-      </article>
-    {:else if index === 6}
-      <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Why You?</h1>
         
         <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
           <p>Your domain expertise + our SaaS engineering = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.</p>
         </div>
       </article>
-    {:else if index === 7}
+    {:else if index === 6}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Why You?</h1>
         
@@ -300,7 +263,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 8}
+    {:else if index === 7}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your ROI Projection</h1>
         
@@ -309,7 +272,7 @@
           <p class="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">And while efficiency pays for the project on its own, the real upside is in SaaS revenue and enterprise value multiples.</p>
         </div>
       </article>
-    {:else if index === 9}
+    {:else if index === 8}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your ROI Projection</h1>
 
@@ -353,7 +316,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 10}
+    {:else if index === 9}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Path to SaaS Success</h1>
         
@@ -407,7 +370,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 11}
+    {:else if index === 10}
       <article class="w-full max-w-5xl text-center">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Secure Your SaaS Development</h1>
         
@@ -421,47 +384,68 @@
           </div>
         </div>
       </article>
-    {:else if index === 12}
-      <article class="w-full max-w-5xl text-center">
-        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Let's fucking do this.</h1>
+    {:else if index === 11}
+      <article class="w-full max-w-5xl text-left">
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your SaaS Investment Breakdown</h1>
         
-        <div class="flex justify-center px-4">
-          <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50 max-w-2xl w-full">
-            <div class="text-center flex flex-col items-center justify-center">
-              <div class="mb-4 sm:mb-6 text-4xl sm:text-5xl">🎯</div>
-              <p class="text-lg sm:text-xl text-white/90 leading-relaxed">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
+        <div class="mb-8 rounded-xl bg-zinc-800/60 py-8 px-6 backdrop-blur-sm border border-zinc-700/50">
+          <div class="text-center">
+            <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-white">$45,000 + 3% revenue share</div>
+          </div>
+        </div>
+
+        <div class="grid gap-4 grid-cols-1 sm:grid-cols-2">
+          <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
+            <div class="flex items-center">
+              <span class="mr-3 text-xl">🤖</span>
+              <span class="font-semibold">Custom SaaS platform (AI features included)</span>
+            </div>
+          </div>
+          <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
+            <div class="flex items-center">
+              <span class="mr-3 text-xl">🔗</span>
+              <span class="font-semibold">Client portal integration streamlining operations</span>
+            </div>
+          </div>
+          <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
+            <div class="flex items-center">
+              <span class="mr-3 text-xl">⚡</span>
+              <span class="font-semibold">Automation workflows eliminating manual tasks</span>
+            </div>
+          </div>
+          <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
+            <div class="flex items-center">
+              <span class="mr-3 text-xl">🔄</span>
+              <span class="font-semibold">3 months of iterating and refining the product after initial build</span>
             </div>
           </div>
         </div>
       </article>
-    {:else if index === 13}
-      <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Let's Connect</h1>
+    {:else if index === 12}
+      <article class="w-full max-w-5xl text-center">
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Let's fucking do this.</h1>
         
-        <div class="mb-8 text-left">
-          <p class="text-base sm:text-lg text-white/90">Reach out on any of these:</p>
+        <div class="mb-8 text-center">
+          <p class="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
         </div>
 
-        <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-          <!-- Instagram -->
-          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <div class="mb-3 text-3xl sm:text-4xl">📸</div>
-            <h3 class="text-base sm:text-lg font-bold text-white mb-2">Instagram</h3>
-            <a href="https://www.instagram.com/horheyjorge_/" class="text-white/80 underline hover:no-underline" target="_blank">@horheyjorge_</a>
+        <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 max-w-4xl mx-auto">
+          <!-- Book a Fit Call -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50">
+            <div class="text-center">
+              <div class="mb-4 text-4xl sm:text-5xl">📅</div>
+              <h3 class="text-xl sm:text-2xl font-bold text-white mb-4">Book a Fit Call</h3>
+              <a href="https://cal.com/jorgelewis/15min" class="inline-block bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-white/90 transition-colors" target="_blank">Schedule 15min Call</a>
+            </div>
           </div>
 
           <!-- WhatsApp -->
-          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <div class="mb-3 text-3xl sm:text-4xl">📱</div>
-            <h3 class="text-base sm:text-lg font-bold text-white mb-2">WhatsApp</h3>
-            <a href="https://wa.me/85297473013" class="text-white/80 underline hover:no-underline" target="_blank">+852 9747 3013</a>
-          </div>
-
-          <!-- Email -->
-          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <div class="mb-3 text-3xl sm:text-4xl">📧</div>
-            <h3 class="text-base sm:text-lg font-bold text-white mb-2">Email</h3>
-            <a href="mailto:jorge.lewis@starti.no" class="text-white/80 underline hover:no-underline">jorge.lewis@starti.no</a>
+          <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50">
+            <div class="text-center">
+              <div class="mb-4 text-4xl sm:text-5xl">📱</div>
+              <h3 class="text-xl sm:text-2xl font-bold text-white mb-4">Message me on WhatsApp</h3>
+              <a href="https://wa.me/85297473013" class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors" target="_blank">Send WhatsApp</a>
+            </div>
           </div>
         </div>
       </article>
