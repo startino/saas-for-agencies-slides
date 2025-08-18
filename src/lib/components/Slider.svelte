@@ -1,6 +1,6 @@
 <script lang="ts">
   let index = 0;
-  const numSlides = 11;
+  const numSlides = 12;
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
@@ -65,7 +65,7 @@
     {/if}
   </div>
 
-  <div class="relative mx-auto flex h-full w-full max-w-7xl items-center p-6 sm:p-12">
+  <div class="relative mx-auto flex h-full w-full max-w-7xl items-center justify-center p-6 sm:p-12">
     {#if index === 0}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-5xl font-extrabold leading-tight tracking-tight sm:text-7xl lg:text-8xl">Scale Your Agency with a SaaS</h1>
@@ -140,7 +140,7 @@
       </article>
     {:else if index === 3}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">What We Hope to Achieve With You</h1>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">What We Want to Achieve</h1>
         <div class="text-lg leading-snug text-white/90 mb-6">
           <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
         </div>
@@ -175,7 +175,7 @@
       </article>
     {:else if index === 4}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">What We Hope to Achieve With You</h1>
+        <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">What We Want to Achieve</h1>
         <div class="text-lg leading-snug text-white/90 mb-6">
           <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
         </div>
@@ -213,7 +213,7 @@
         <h1 class="mb-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl lg:text-7xl">Your SaaS Investment Breakdown</h1>
         
         <div class="mb-8 rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
-          <div class="text-center mb-4">
+          <div class="text-center mb-4 flex items-center justify-center">
             <div class="text-4xl font-bold text-white">$45,000 + 3% revenue share</div>
           </div>
         </div>
@@ -351,7 +351,7 @@
 
           <!-- Total Impact -->
           <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <div class="text-center">
+            <div class="text-center flex flex-col items-center justify-center">
               <div class="mb-3 sm:mb-4 text-3xl sm:text-4xl">🚀</div>
               <h3 class="text-2xl sm:text-3xl font-bold text-white mb-2">$172,000 First Year Impact</h3>
               <p class="text-base sm:text-lg text-white/90 mb-3 sm:mb-4">On a $45,000 investment</p>
@@ -420,7 +420,7 @@
         
         <div class="flex justify-center px-4">
           <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50 max-w-2xl w-full">
-            <div class="text-center">
+            <div class="text-center flex flex-col items-center justify-center">
               <div class="mb-4 sm:mb-6 text-4xl sm:text-5xl">⏰</div>
               <h3 class="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Only 2 Spots Available This Quarter</h3>
               <p class="text-base sm:text-lg text-white/90 leading-relaxed">Due to our hands-on approach and commitment to quality, we limit ourselves to 2 agency SaaS projects per quarter. We are extremely picky with who we choose to work with to increase the chances of success.</p>
@@ -434,7 +434,7 @@
         
         <div class="flex justify-center px-4">
           <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50 max-w-2xl w-full">
-            <div class="text-center">
+            <div class="text-center flex flex-col items-center justify-center">
               <div class="mb-4 sm:mb-6 text-4xl sm:text-5xl">🎯</div>
               <p class="text-lg sm:text-xl text-white/90 leading-relaxed">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
             </div>
