@@ -7,12 +7,15 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
-    "sync": "svelte-kit sync"
+    "sync": "svelte-kit sync",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",
     "typescript": "^5.5.4",
