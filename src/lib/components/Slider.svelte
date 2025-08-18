@@ -421,10 +421,10 @@
         </div>
       </article>
     {:else if index === 12}
-      <article class="w-full max-w-5xl text-right">
+      <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Let's fucking do this.</h1>
         
-        <div class="mb-8 text-right">
+        <div class="mb-8 text-left">
           <p class="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
         </div>
 
