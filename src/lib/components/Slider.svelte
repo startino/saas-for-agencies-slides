@@ -284,7 +284,7 @@
               <p>• AI-powered filtering</p>
               <p>• Automated outreach</p>
             </div>
-            <a href="https://www.starti.no/projects/reletino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-20 pointer-events-auto" target="_blank">View Case Study →</a>
+            <a href="https://www.starti.no/projects/reletino" class="text-blue-400 hover:text-blue-300 text-xs underline" target="_blank">View Case Study →</a>
           </div>
 
           <!-- Aitino -->
@@ -302,7 +302,7 @@
               <p>• Team collaboration</p>
               <p>• Drag-and-drop interface</p>
             </div>
-            <a href="https://www.starti.no/projects/aitino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-20 pointer-events-auto" target="_blank">View Case Study →</a>
+            <a href="https://www.starti.no/projects/aitino" class="text-blue-400 hover:text-blue-300 text-xs underline" target="_blank">View Case Study →</a>
           </div>
 
           <!-- Third Project -->
@@ -570,8 +570,9 @@
   </div>
 
   <div class="pointer-events-none absolute inset-0 flex justify-between">
-    <button type="button" class="pointer-events-auto h-full w-1/3" on:click={prev} aria-label="Previous slide"></button>
-    <button type="button" class="pointer-events-auto h-full w-1/3" on:click={next} aria-label="Next slide"></button>
+    <button type="button" class="pointer-events-auto h-full w-1/4" on:click={prev} aria-label="Previous slide"></button>
+    <div class="w-1/2 pointer-events-none"></div>
+    <button type="button" class="pointer-events-auto h-full w-1/4" on:click={next} aria-label="Next slide"></button>
   </div>
 </section>
 
