@@ -279,11 +279,12 @@
               </div>
             </div>
             <p class="text-white/90 mb-4 text-sm">Brings leads straight to agencies from Reddit, in real-time using AI agents.</p>
-            <div class="text-white/70 text-xs">
+            <div class="text-white/70 text-sm mb-3">
               <p>• Real-time lead detection</p>
               <p>• AI-powered filtering</p>
               <p>• Automated outreach</p>
             </div>
+            <a href="https://www.starti.no/projects/reletino" class="text-blue-400 hover:text-blue-300 text-xs underline" target="_blank">View Case Study →</a>
           </div>
 
           <!-- Aitino -->
@@ -296,11 +297,12 @@
               </div>
             </div>
             <p class="text-white/90 mb-4 text-sm">Platform for creating multi-agent AI teams that collaborate to solve complex tasks.</p>
-            <div class="text-white/70 text-xs">
+            <div class="text-white/70 text-sm mb-3">
               <p>• Visual agent builder</p>
               <p>• Team collaboration</p>
               <p>• Drag-and-drop interface</p>
             </div>
+            <a href="https://www.starti.no/projects/aitino" class="text-blue-400 hover:text-blue-300 text-xs underline" target="_blank">View Case Study →</a>
           </div>
 
           <!-- Third Project -->
@@ -315,30 +317,12 @@
               </div>
             </div>
             <p class="text-white/90 mb-4 text-sm">AI-powered platform helping students discover best-fit universities and improve admission odds.</p>
-            <div class="text-white/70 text-xs">
+            <div class="text-white/70 text-sm mb-3">
               <p>• University matching</p>
               <p>• Admissions analytics</p>
-              <p>• Case study URL WIP</p>
+              <p>• Case study coming soon</p>
             </div>
-          </div>
-        </div>
-
-        <!-- Track Record Stats -->
-        <div class="mt-8 rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
-          <h4 class="text-lg font-bold text-white mb-4 text-center">Track Record</h4>
-          <div class="grid grid-cols-3 gap-4 text-center">
-            <div>
-              <div class="text-2xl font-bold text-white">3+</div>
-              <div class="text-white/70 text-sm">SaaS Built</div>
-            </div>
-            <div>
-              <div class="text-2xl font-bold text-white">2+</div>
-              <div class="text-white/70 text-sm">Years Experience</div>
-            </div>
-            <div>
-              <div class="text-2xl font-bold text-white">100%</div>
-              <div class="text-white/70 text-sm">Success Rate</div>
-            </div>
+            <span class="text-gray-500 text-xs">Case Study URL WIP</span>
           </div>
         </div>
       </article>
