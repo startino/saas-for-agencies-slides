@@ -66,7 +66,7 @@
     <img src="/saas-for-agencies-slides/startino-wordmark.png" alt="Startino" class="h-6 sm:h-8 w-auto opacity-90" />
   </div>
 
-  <div class="relative z-10 mx-auto flex h-full w-full max-w-7xl items-start justify-start sm:items-center sm:justify-center pt-16 px-4 pb-24 sm:p-6 lg:p-12 sm:pb-0 overflow-y-auto overscroll-y-contain">
+  <div class="relative mx-auto flex h-full w-full max-w-7xl items-start justify-start sm:items-center sm:justify-center pt-16 px-4 pb-24 sm:p-6 lg:p-12 sm:pb-0 overflow-y-auto overscroll-y-contain">
     {#if index === 0}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">Scale Your Agency with a SaaS</h1>
@@ -270,7 +270,7 @@
         
         <div class="grid gap-6 grid-cols-1 md:grid-cols-3">
           <!-- Reletino -->
-          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50 relative z-10">
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
             <div class="flex items-center mb-4">
               <img src="/saas-for-agencies-slides/reletino-logo.png" alt="Reletino" class="h-12 w-12 mr-4 rounded-lg" />
               <div>
@@ -284,11 +284,11 @@
               <p>• AI-powered filtering</p>
               <p>• Automated outreach</p>
             </div>
-            <a href="https://www.starti.no/projects/reletino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-20 pointer-events-auto" target="_blank">View Case Study →</a>
+            <a href="https://www.starti.no/projects/reletino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-50 pointer-events-auto" target="_blank">View Case Study →</a>
           </div>
 
           <!-- Aitino -->
-          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50 relative z-10">
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
             <div class="flex items-center mb-4">
               <img src="/saas-for-agencies-slides/aitino-logo.png" alt="Aitino" class="h-12 w-12 mr-4 rounded-lg" />
               <div>
@@ -302,11 +302,11 @@
               <p>• Team collaboration</p>
               <p>• Drag-and-drop interface</p>
             </div>
-            <a href="https://www.starti.no/projects/aitino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-20 pointer-events-auto" target="_blank">View Case Study →</a>
+            <a href="https://www.starti.no/projects/aitino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-50 pointer-events-auto" target="_blank">View Case Study →</a>
           </div>
 
           <!-- Third Project -->
-          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50 relative z-10">
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
             <div class="flex items-center mb-4">
               <div class="h-12 w-12 mr-4 rounded-lg bg-zinc-700/60 flex items-center justify-center">
                 <span class="text-2xl">🚀</span>
