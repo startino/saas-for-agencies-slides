@@ -4,20 +4,52 @@
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
-  let startX = 0;
+  let startX: number | null = null;
   function onStart(e: MouseEvent | TouchEvent) {
+    // ignore gestures that start on interactive elements
+    const target = e.target as EventTarget | null;
+    if (isInteractiveTarget(target)) return;
     startX = 'touches' in e ? e.touches[0].clientX : (e as MouseEvent).clientX;
   }
   function onEnd(e: MouseEvent | TouchEvent) {
+    // if gesture didn't start here, don't navigate
+    if (startX === null) return;
+    // also ignore pointerup ending on interactive elements
+    if (isInteractiveTarget(e.target)) {
+      startX = null;
+      return;
+    }
     const clientX = 'changedTouches' in e ? e.changedTouches[0].clientX : (e as MouseEvent).clientX;
     const dx = clientX - startX;
     if (dx < -40) next();
     if (dx > 40) prev();
+    startX = null;
+  }
+
+  // Click (no-swipe) navigation — left half = prev, right half = next
+  function onSectionClick(e: MouseEvent) {
+    if (isInteractiveTarget(e.target)) return;
+    const container = e.currentTarget as HTMLElement;
+    const rect = container.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    if (x < rect.width / 2) prev();
+    else next();
   }
   function onKey(e: KeyboardEvent) {
     if (e.key === 'ArrowRight') next();
     if (e.key === 'ArrowLeft') prev();
   }
+  function isInteractiveTarget(target: EventTarget | null): boolean {
+    let el: Element | null = null;
+    if (target instanceof Element) el = target;
+    else if (target instanceof Node) el = (target as Node).parentElement;
+    if (!el) return false;
+    return Boolean(
+      el.closest('a, button, input, textarea, select, summary, [role="button"], [data-interactive="true"]')
+    );
+  }
+
+  // tap-to-navigate handled in onEnd when no swipe detected
   // Rotate background gradient variants per slide using the same color palette
   const gradientBackgroundVariants: string[] = [
     // Variant A — like screenshot 1: bottom-left sweep + strong top-right glow
@@ -35,9 +67,7 @@
 
 <svelte:window on:keydown={onKey} />
 
-<section class="relative h-[100svh] w-full overflow-hidden bg-black text-white" aria-label="Slides">
-  <!-- Swipe detector overlay (behind controls) -->
-  <div class="absolute inset-0 z-0" on:pointerdown={onStart} on:touchstart={onStart} on:pointerup={onEnd} on:touchend={onEnd} aria-hidden="true"></div>
+<section class="relative h-[100svh] w-full overflow-hidden bg-black text-white" aria-label="Slides" on:pointerdown={onStart} on:touchstart={onStart} on:pointerup={onEnd} on:touchend={onEnd} on:click={onSectionClick}>
   <!-- Ambient color glows -->
   <div class="pointer-events-none absolute inset-0">
     <!-- Variant background pattern -->
@@ -284,7 +314,7 @@
               <p>• AI-powered filtering</p>
               <p>• Automated outreach</p>
             </div>
-            <a href="https://www.starti.no/projects/reletino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-10 pointer-events-auto" target="_blank">View Case Study →</a>
+            <a href="https://www.starti.no/projects/reletino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-20 pointer-events-auto" target="_blank" on:click|stopPropagation on:pointerdown|stopPropagation on:touchstart|stopPropagation>View Case Study →</a>
           </div>
 
           <!-- Aitino -->
@@ -302,7 +332,7 @@
               <p>• Team collaboration</p>
               <p>• Drag-and-drop interface</p>
             </div>
-            <a href="https://www.starti.no/projects/aitino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-10 pointer-events-auto" target="_blank">View Case Study →</a>
+            <a href="https://www.starti.no/projects/aitino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-20 pointer-events-auto" target="_blank" on:click|stopPropagation on:pointerdown|stopPropagation on:touchstart|stopPropagation>View Case Study →</a>
           </div>
 
           <!-- Third Project -->
@@ -565,14 +595,10 @@
     {#each Array.from({ length: numSlides }) as _, i}
       <button class="h-2 w-2 rounded-full transition-colors"
               style:background-color={i===index ? 'white' : 'rgba(255,255,255,0.4)'}
-              on:click={() => (index = i)} aria-label={`Go to slide ${i+1}`}></button>
+              on:click|stopPropagation={() => (index = i)} aria-label={`Go to slide ${i+1}`}></button>
     {/each}
   </div>
 
-  <div class="pointer-events-none absolute inset-0 flex justify-between z-0">
-    <button type="button" class="pointer-events-auto h-full w-1/2" on:click={prev} aria-label="Previous slide"></button>
-    <button type="button" class="pointer-events-auto h-full w-1/2" on:click={next} aria-label="Next slide"></button>
-  </div>
 </section>
 
 
