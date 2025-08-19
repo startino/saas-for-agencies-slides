@@ -61,8 +61,8 @@
     Click right to go forward →
   </div>
 
-  <!-- Wordmark - Centered between nav hints -->
-  <div class="absolute top-16 left-1/2 transform -translate-x-1/2 z-10 pointer-events-none">
+  <!-- Wordmark - Inline with nav hints, centered -->
+  <div class="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 pointer-events-none">
     <img src="/saas-for-agencies-slides/startino-wordmark.png" alt="Startino" class="h-8 w-auto opacity-90" />
   </div>
 
