@@ -53,8 +53,13 @@
 
   
 
+  <!-- Wordmark -->
+  <div class="absolute top-4 left-6 z-10 pointer-events-none">
+    <img src="/startino-wordmark.png" alt="Startino" class="h-8 w-auto opacity-90" />
+  </div>
+
   <!-- Navigation hints -->
-  <div class="absolute top-4 left-6 text-xs text-white/50 z-10 pointer-events-none hidden sm:block">
+  <div class="absolute top-16 left-6 text-xs text-white/50 z-10 pointer-events-none hidden sm:block">
     {#if index > 0}
       ← Click here to go back
     {/if}
@@ -70,7 +75,7 @@
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">Scale Your Agency with a SaaS</h1>
         <div class="prose-measure space-y-4 text-base leading-snug text-white/90 sm:text-lg md:text-xl lg:text-2xl">
-          <p><strong>We build (AI) SaaS for Digital Agencies (doing $1M+/yr)</strong></p>
+          <p><strong>We build & Monetise (AI) SaaS for Digital Agencies (doing $1M+/yr)</strong></p>
           <p>Whether to sell to other agencies (white-label) or productize your services and sell directly to customers.</p>
         </div>
       </article>
@@ -88,7 +93,7 @@
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">💸</span>
-                <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>Your team spends 40+ hours/week (costing you $8,000+/mo) on repetitive, manual tasks</strong></p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">Your team spends 40+ hours/week (costing you $8,000+/mo) on repetitive, manual tasks</p>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
@@ -213,7 +218,7 @@
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Why You?</h1>
         
         <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p>Your domain expertise + our SaaS engineering = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.</p>
+          <p>Your domain expertise + our SaaS expertise (engineering + marketing) = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.</p>
         </div>
       </article>
     {:else if index === 6}
