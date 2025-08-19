@@ -53,26 +53,17 @@
 
   
 
-  <!-- Navigation hints -->
+  <!-- Navigation hints - symmetrical on both sides -->
   <div class="absolute top-4 left-6 text-xs text-white/50 z-10 pointer-events-none hidden sm:block">
-    {#if index > 0}
-      ← Click right to go back
-    {/if}
+    ← Click right to go back
   </div>
   <div class="absolute top-4 right-6 text-xs text-white/50 z-10 pointer-events-none hidden sm:block">
-    {#if index < numSlides - 1}
-      Click right to go forward →
-    {/if}
+    Click right to go forward →
   </div>
 
-  <!-- Wordmark - Left side -->
-  <div class="absolute top-16 left-6 z-10 pointer-events-none">
-    <img src="/startino-wordmark.png" alt="Startino" class="h-8 w-auto opacity-90" />
-  </div>
-  
-  <!-- Wordmark - Right side for symmetry -->
-  <div class="absolute top-16 right-6 z-10 pointer-events-none">
-    <img src="/startino-wordmark.png" alt="Startino" class="h-8 w-auto opacity-90" />
+  <!-- Wordmark - Centered between nav hints -->
+  <div class="absolute top-16 left-1/2 transform -translate-x-1/2 z-10 pointer-events-none">
+    <img src="/saas-for-agencies-slides/startino-wordmark.png" alt="Startino" class="h-8 w-auto opacity-90" />
   </div>
 
   <div class="relative mx-auto flex h-full w-full max-w-7xl items-start justify-start sm:items-center sm:justify-center p-4 sm:p-6 lg:p-12 overflow-y-auto overscroll-y-contain pb-24 sm:pb-0">
