@@ -1,6 +1,6 @@
 <script lang="ts">
   let index = 0;
-  const numSlides = 16;
+  const numSlides = 15;
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
@@ -264,22 +264,22 @@
         </div>
       </article>
     {:else if index === 7}
-      <!-- Project Showcase Slide 1 -->
+      <!-- Project Showcase Slide -->
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Our Top Projects</h1>
         
-        <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
+        <div class="grid gap-6 grid-cols-1 md:grid-cols-3">
           <!-- Reletino -->
           <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
             <div class="flex items-center mb-4">
-              <img src="/reletino-logo.png" alt="Reletino" class="h-12 w-12 mr-4 rounded-lg" />
+              <img src="/saas-for-agencies-slides/reletino-logo.png" alt="Reletino" class="h-12 w-12 mr-4 rounded-lg" />
               <div>
-                <h3 class="text-xl sm:text-2xl font-bold text-white">Reletino</h3>
-                <p class="text-white/80 text-sm sm:text-base">Lead Generation SaaS</p>
+                <h3 class="text-lg sm:text-xl font-bold text-white">Reletino</h3>
+                <p class="text-white/80 text-xs sm:text-sm">Lead Generation SaaS</p>
               </div>
             </div>
-            <p class="text-white/90 mb-4">Brings leads straight to agencies and SaaS companies from Reddit, in real-time using AI agents.</p>
-            <div class="text-white/70 text-sm">
+            <p class="text-white/90 mb-4 text-sm">Brings leads straight to agencies from Reddit, in real-time using AI agents.</p>
+            <div class="text-white/70 text-xs">
               <p>• Real-time lead detection</p>
               <p>• AI-powered filtering</p>
               <p>• Automated outreach</p>
@@ -289,67 +289,60 @@
           <!-- Aitino -->
           <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
             <div class="flex items-center mb-4">
-              <img src="/aitino-logo.png" alt="Aitino" class="h-12 w-12 mr-4 rounded-lg" />
+              <img src="/saas-for-agencies-slides/aitino-logo.png" alt="Aitino" class="h-12 w-12 mr-4 rounded-lg" />
               <div>
-                <h3 class="text-xl sm:text-2xl font-bold text-white">Aitino</h3>
-                <p class="text-white/80 text-sm sm:text-base">Multi-Agent AI Platform</p>
+                <h3 class="text-lg sm:text-xl font-bold text-white">Aitino</h3>
+                <p class="text-white/80 text-xs sm:text-sm">Multi-Agent AI Platform</p>
               </div>
             </div>
-            <p class="text-white/90 mb-4">Developer-first platform for creating multi-agent AI teams that collaborate to solve complex tasks.</p>
-            <div class="text-white/70 text-sm">
+            <p class="text-white/90 mb-4 text-sm">Platform for creating multi-agent AI teams that collaborate to solve complex tasks.</p>
+            <div class="text-white/70 text-xs">
               <p>• Visual agent builder</p>
               <p>• Team collaboration</p>
               <p>• Drag-and-drop interface</p>
             </div>
           </div>
-        </div>
-      </article>
-    {:else if index === 8}
-      <!-- Project Showcase Slide 2 -->
-      <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Our Top Projects</h1>
-        
-        <div class="grid gap-6 grid-cols-1 max-w-2xl mx-auto">
-          <!-- Third Project - Work in Progress -->
+
+          <!-- Third Project -->
           <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
             <div class="flex items-center mb-4">
               <div class="h-12 w-12 mr-4 rounded-lg bg-zinc-700/60 flex items-center justify-center">
-                <span class="text-2xl">🚧</span>
+                <span class="text-2xl">🚀</span>
               </div>
               <div>
-                <h3 class="text-xl sm:text-2xl font-bold text-white">Project #3</h3>
-                <p class="text-white/80 text-sm sm:text-base">Work in Progress</p>
+                <h3 class="text-lg sm:text-xl font-bold text-white">MyChance.ai</h3>
+                <p class="text-white/80 text-xs sm:text-sm">College Admissions AI</p>
               </div>
             </div>
-            <p class="text-white/90 mb-4">Our next breakthrough SaaS solution is currently in development. Built with cutting-edge technology to solve real-world problems.</p>
-            <div class="text-white/70 text-sm">
-              <p>• Advanced AI integration</p>
-              <p>• Scalable architecture</p>
-              <p>• Market-validated concept</p>
+            <p class="text-white/90 mb-4 text-sm">AI-powered platform helping students discover best-fit universities and improve admission odds.</p>
+            <div class="text-white/70 text-xs">
+              <p>• University matching</p>
+              <p>• Admissions analytics</p>
+              <p>• Case study URL WIP</p>
             </div>
           </div>
+        </div>
 
-          <!-- Key Stats -->
-          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
-            <h4 class="text-lg font-bold text-white mb-4 text-center">Track Record</h4>
-            <div class="grid grid-cols-3 gap-4 text-center">
-              <div>
-                <div class="text-2xl font-bold text-white">3+</div>
-                <div class="text-white/70 text-sm">SaaS Built</div>
-              </div>
-              <div>
-                <div class="text-2xl font-bold text-white">2+</div>
-                <div class="text-white/70 text-sm">Years Experience</div>
-              </div>
-              <div>
-                <div class="text-2xl font-bold text-white">100%</div>
-                <div class="text-white/70 text-sm">Success Rate</div>
-              </div>
+        <!-- Track Record Stats -->
+        <div class="mt-8 rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+          <h4 class="text-lg font-bold text-white mb-4 text-center">Track Record</h4>
+          <div class="grid grid-cols-3 gap-4 text-center">
+            <div>
+              <div class="text-2xl font-bold text-white">3+</div>
+              <div class="text-white/70 text-sm">SaaS Built</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold text-white">2+</div>
+              <div class="text-white/70 text-sm">Years Experience</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold text-white">100%</div>
+              <div class="text-white/70 text-sm">Success Rate</div>
             </div>
           </div>
         </div>
       </article>
-    {:else if index === 9}
+    {:else if index === 8}
       <!-- Testimonials Slide -->
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What Our Clients Say</h1>
@@ -395,7 +388,7 @@
           <p class="text-white/80 text-lg">Ready to join our success stories?</p>
         </div>
       </article>
-    {:else if index === 10}
+    {:else if index === 9}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your ROI Projection</h1>
         
@@ -404,7 +397,7 @@
           <p class="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">And while efficiency pays for the project on its own, the real upside is in SaaS revenue and enterprise value multiples.</p>
         </div>
       </article>
-    {:else if index === 8}
+    {:else if index === 10}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your ROI Projection</h1>
 
@@ -448,7 +441,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 9}
+    {:else if index === 11}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Path to SaaS Success</h1>
         
@@ -502,7 +495,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 10}
+    {:else if index === 12}
       <article class="w-full max-w-5xl text-center">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Secure Your SaaS Development</h1>
         
@@ -516,7 +509,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 11}
+    {:else if index === 13}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your SaaS Investment Breakdown</h1>
         
@@ -553,7 +546,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 15}
+    {:else if index === 14}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Let's fucking do this.</h1>
         
