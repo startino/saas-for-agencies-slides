@@ -61,12 +61,12 @@
     Click right to go forward →
   </div>
 
-  <!-- Wordmark - Inline with nav hints, centered, hidden on mobile -->
-  <div class="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 pointer-events-none hidden sm:block">
-    <img src="/saas-for-agencies-slides/startino-wordmark.png" alt="Startino" class="h-8 w-auto opacity-90" />
+  <!-- Wordmark - Inline with nav hints, centered -->
+  <div class="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 pointer-events-none">
+    <img src="/saas-for-agencies-slides/startino-wordmark.png" alt="Startino" class="h-6 sm:h-8 w-auto opacity-90" />
   </div>
 
-  <div class="relative mx-auto flex h-full w-full max-w-7xl items-start justify-start sm:items-center sm:justify-center p-4 sm:p-6 lg:p-12 overflow-y-auto overscroll-y-contain pb-24 sm:pb-0">
+  <div class="relative mx-auto flex h-full w-full max-w-7xl items-start justify-start sm:items-center sm:justify-center pt-16 px-4 pb-24 sm:p-6 lg:p-12 sm:pb-0 overflow-y-auto overscroll-y-contain">
     {#if index === 0}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">Scale Your Agency with a SaaS</h1>
