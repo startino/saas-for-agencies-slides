@@ -284,7 +284,7 @@
               <p>• AI-powered filtering</p>
               <p>• Automated outreach</p>
             </div>
-            <a href="https://www.starti.no/projects/reletino" class="text-blue-400 hover:text-blue-300 text-xs underline" target="_blank">View Case Study →</a>
+            <a href="https://www.starti.no/projects/reletino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-20 pointer-events-auto" target="_blank">View Case Study →</a>
           </div>
 
           <!-- Aitino -->
@@ -302,7 +302,7 @@
               <p>• Team collaboration</p>
               <p>• Drag-and-drop interface</p>
             </div>
-            <a href="https://www.starti.no/projects/aitino" class="text-blue-400 hover:text-blue-300 text-xs underline" target="_blank">View Case Study →</a>
+            <a href="https://www.starti.no/projects/aitino" class="text-blue-400 hover:text-blue-300 text-xs underline relative z-20 pointer-events-auto" target="_blank">View Case Study →</a>
           </div>
 
           <!-- Third Project -->
