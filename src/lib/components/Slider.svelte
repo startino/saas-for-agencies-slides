@@ -1,6 +1,6 @@
 <script lang="ts">
   let index = 0;
-  const numSlides = 13;
+  const numSlides = 16;
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
@@ -264,6 +264,138 @@
         </div>
       </article>
     {:else if index === 7}
+      <!-- Project Showcase Slide 1 -->
+      <article class="w-full max-w-5xl text-left">
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Our Top Projects</h1>
+        
+        <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
+          <!-- Reletino -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="flex items-center mb-4">
+              <img src="/reletino-logo.png" alt="Reletino" class="h-12 w-12 mr-4 rounded-lg" />
+              <div>
+                <h3 class="text-xl sm:text-2xl font-bold text-white">Reletino</h3>
+                <p class="text-white/80 text-sm sm:text-base">Lead Generation SaaS</p>
+              </div>
+            </div>
+            <p class="text-white/90 mb-4">Brings leads straight to agencies and SaaS companies from Reddit, in real-time using AI agents.</p>
+            <div class="text-white/70 text-sm">
+              <p>• Real-time lead detection</p>
+              <p>• AI-powered filtering</p>
+              <p>• Automated outreach</p>
+            </div>
+          </div>
+
+          <!-- Aitino -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="flex items-center mb-4">
+              <img src="/aitino-logo.png" alt="Aitino" class="h-12 w-12 mr-4 rounded-lg" />
+              <div>
+                <h3 class="text-xl sm:text-2xl font-bold text-white">Aitino</h3>
+                <p class="text-white/80 text-sm sm:text-base">Multi-Agent AI Platform</p>
+              </div>
+            </div>
+            <p class="text-white/90 mb-4">Developer-first platform for creating multi-agent AI teams that collaborate to solve complex tasks.</p>
+            <div class="text-white/70 text-sm">
+              <p>• Visual agent builder</p>
+              <p>• Team collaboration</p>
+              <p>• Drag-and-drop interface</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    {:else if index === 8}
+      <!-- Project Showcase Slide 2 -->
+      <article class="w-full max-w-5xl text-left">
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Our Top Projects</h1>
+        
+        <div class="grid gap-6 grid-cols-1 max-w-2xl mx-auto">
+          <!-- Third Project - Work in Progress -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="flex items-center mb-4">
+              <div class="h-12 w-12 mr-4 rounded-lg bg-zinc-700/60 flex items-center justify-center">
+                <span class="text-2xl">🚧</span>
+              </div>
+              <div>
+                <h3 class="text-xl sm:text-2xl font-bold text-white">Project #3</h3>
+                <p class="text-white/80 text-sm sm:text-base">Work in Progress</p>
+              </div>
+            </div>
+            <p class="text-white/90 mb-4">Our next breakthrough SaaS solution is currently in development. Built with cutting-edge technology to solve real-world problems.</p>
+            <div class="text-white/70 text-sm">
+              <p>• Advanced AI integration</p>
+              <p>• Scalable architecture</p>
+              <p>• Market-validated concept</p>
+            </div>
+          </div>
+
+          <!-- Key Stats -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <h4 class="text-lg font-bold text-white mb-4 text-center">Track Record</h4>
+            <div class="grid grid-cols-3 gap-4 text-center">
+              <div>
+                <div class="text-2xl font-bold text-white">3+</div>
+                <div class="text-white/70 text-sm">SaaS Built</div>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-white">2+</div>
+                <div class="text-white/70 text-sm">Years Experience</div>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-white">100%</div>
+                <div class="text-white/70 text-sm">Success Rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    {:else if index === 9}
+      <!-- Testimonials Slide -->
+      <article class="w-full max-w-5xl text-left">
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What Our Clients Say</h1>
+        
+        <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
+          <!-- Testimonial 1 -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="flex items-center mb-4">
+              <div class="h-12 w-12 mr-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+                <span class="text-white font-bold text-lg">JD</span>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold text-white">John Davis</h3>
+                <p class="text-white/80 text-sm">CEO, DigitalFlow Agency</p>
+              </div>
+            </div>
+            <p class="text-white/90 italic mb-4">"Startino transformed our agency from manual chaos to automated efficiency. Our SaaS platform now generates $40k MRR and our team productivity increased by 200%. Best investment we've ever made."</p>
+            <div class="flex text-yellow-400">
+              <span>★★★★★</span>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="flex items-center mb-4">
+              <div class="h-12 w-12 mr-4 rounded-full bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
+                <span class="text-white font-bold text-lg">SM</span>
+              </div>
+              <div>
+                <h3 class="text-lg font-bold text-white">Sarah Miller</h3>
+                <p class="text-white/80 text-sm">Founder, GrowthHack Solutions</p>
+              </div>
+            </div>
+            <p class="text-white/90 italic mb-4">"The custom SaaS platform Jorge and his team built for us eliminated 60 hours of manual work per week. We went from 8 clients to 25 clients with the same team size. Incredible ROI."</p>
+            <div class="flex text-yellow-400">
+              <span>★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="mt-8 text-center">
+          <p class="text-white/80 text-lg">Ready to join our success stories?</p>
+        </div>
+      </article>
+    {:else if index === 10}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Your ROI Projection</h1>
         
@@ -421,7 +553,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 12}
+    {:else if index === 15}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Let's fucking do this.</h1>
         
