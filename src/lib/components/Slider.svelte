@@ -174,67 +174,129 @@
         </div>
       </article>
     {:else if index === 3}
-      <article class="w-full max-w-5xl text-left">
+      <article class="w-full max-w-6xl text-left">
         <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What We Want to Achieve</h1>
         <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
           <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
         </div>
         
-        <!-- MarketFlow Digital Case Study -->
-        <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-8 backdrop-blur-sm border border-zinc-700/50">
-          <div class="flex items-center mb-4">
-            <div>
-              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">MarketFlow Digital</h3>
-              <p class="text-white/80 text-sm sm:text-base lg:text-lg">$120k/Month Agency</p>
+        <div class="grid gap-6 lg:grid-cols-2">
+          <!-- Left: KPI Cards -->
+          <div class="space-y-4">
+            <!-- $480k Revenue Card -->
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">$480k</div>
+                <div class="text-base sm:text-lg text-white/90">Additional Annual Revenue</div>
+              </div>
+            </div>
+            
+            <!-- 65% Reduction Card -->
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">65%</div>
+                <div class="text-base sm:text-lg text-white/90">Reduction in Manual Tasks</div>
+              </div>
+            </div>
+            
+            <!-- 250% Productivity Card -->
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">250%</div>
+                <div class="text-base sm:text-lg text-white/90">Productivity Increase</div>
+              </div>
             </div>
           </div>
-          <div class="grid gap-3 sm:gap-4 md:grid-cols-2">
-            <div>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Challenge:</h4>
-              <p class="text-white/90 mb-3 sm:mb-4 md:text-lg">Manual campaign management eating 70% of team capacity</p>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Solution:</h4>
-              <p class="text-white/90 md:text-lg">Custom marketing automation SaaS with client self-service portals</p>
+          
+          <!-- Right: Case Study Details -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="mb-6">
+              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">MarketFlow Digital</h3>
+              <p class="text-white/80 text-base sm:text-lg">$120k/Month Agency</p>
             </div>
-            <div>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Results:</h4>
-              <ul class="space-y-2 text-white/90 md:text-lg">
-                <li>• <strong>$480k</strong> additional annual revenue from SaaS subscriptions</li>
-                <li>• <strong>65%</strong> reduction in manual campaign tasks</li>
-                <li>• Staff productivity increased <strong>250%</strong> allowing focus on strategy</li>
-              </ul>
+            
+            <div class="space-y-6">
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Challenge:</h4>
+                <p class="text-white/90 text-base leading-relaxed">Manual campaign management eating 70% of team capacity</p>
+              </div>
+              
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Solution:</h4>
+                <p class="text-white/90 text-base leading-relaxed">Custom marketing automation SaaS with client self-service portals</p>
+              </div>
+              
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Impact:</h4>
+                <p class="text-white/90 text-base leading-relaxed">Tripled their revenue stream in 12 months by combining automation with a complete business transformation.</p>
+              </div>
             </div>
           </div>
         </div>
       </article>
     {:else if index === 4}
-      <article class="w-full max-w-5xl text-left">
+      <article class="w-full max-w-6xl text-left">
         <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What We Want to Achieve</h1>
         <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
           <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
         </div>
         
-        <!-- GrowthLab Agency Case Study -->
-        <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-8 backdrop-blur-sm border border-zinc-700/50">
-          <div class="flex items-center mb-4">
-            <div>
-              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">GrowthLab Agency</h3>
-              <p class="text-white/80 text-sm sm:text-base lg:text-lg">$95k/Month Agency</p>
+        <div class="grid gap-6 lg:grid-cols-2">
+          <!-- Left: KPI Cards -->
+          <div class="space-y-4">
+            <!-- $350k ARR Card -->
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">$350k</div>
+                <div class="text-base sm:text-lg text-white/90">New ARR in 12 Months</div>
+              </div>
+            </div>
+            
+            <!-- 55% Churn Reduction Card -->
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">55%</div>
+                <div class="text-base sm:text-lg text-white/90">Client Churn Reduction</div>
+              </div>
+            </div>
+            
+            <!-- 3.2x Valuation Card -->
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">3.2x</div>
+                <div class="text-base sm:text-lg text-white/90">Agency Valuation Increase</div>
+              </div>
             </div>
           </div>
-          <div class="grid gap-3 sm:gap-4 md:grid-cols-2">
-            <div>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Challenge:</h4>
-              <p class="text-white/90 mb-3 sm:mb-4 md:text-lg">Clients demanding real-time reporting and advanced analytics</p>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Solution:</h4>
-              <p class="text-white/90 md:text-lg">White-label analytics platform with automated reporting</p>
+          
+          <!-- Right: Case Study Details -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="mb-6">
+              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">GrowthLab Agency</h3>
+              <p class="text-white/80 text-base sm:text-lg">$95k/Month Agency</p>
             </div>
-            <div>
-              <h4 class="font-semibold mb-2 text-white text-base sm:text-lg md:text-xl">Results:</h4>
-              <ul class="space-y-2 text-white/90 md:text-lg">
-                <li>• <strong>$350k</strong> new ARR within 12 months of launch</li>
-                <li>• Client churn reduced by <strong>55%</strong> due to superior tool value</li>
-                <li>• <strong>3.2x</strong> agency valuation increase when sold 18 months later</li>
-              </ul>
+            
+            <div class="space-y-6">
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Challenge:</h4>
+                <p class="text-white/90 text-base leading-relaxed">Clients demanding real-time reporting and advanced analytics</p>
+              </div>
+              
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Solution:</h4>
+                <p class="text-white/90 text-base leading-relaxed">White-label analytics platform with automated reporting</p>
+              </div>
+              
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Impact:</h4>
+                <p class="text-white/90 text-base leading-relaxed">Successfully increased valuation and sold 18 months later due to superior tool value and client retention.</p>
+              </div>
             </div>
           </div>
         </div>
