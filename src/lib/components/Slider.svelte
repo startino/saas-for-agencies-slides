@@ -178,9 +178,13 @@
       <article class="w-full max-w-5xl text-left">
         <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
           <!-- Testimonial 1 -->
+
           <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+                     PLACEHOLDER CONTENT FOR NOW
             <div class="flex items-center mb-4">
+              
               <div class="h-12 w-12 mr-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+               
                 <span class="text-white font-bold text-lg">JD</span>
               </div>
               <div>
@@ -196,7 +200,9 @@
 
           <!-- Testimonial 2 -->
           <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+                       PLACEHOLDER CONTENT FOR NOW
             <div class="flex items-center mb-4">
+              
               <div class="h-12 w-12 mr-4 rounded-full bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
                 <span class="text-white font-bold text-lg">SM</span>
               </div>
