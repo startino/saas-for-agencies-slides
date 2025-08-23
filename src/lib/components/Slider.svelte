@@ -191,22 +191,19 @@
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
-                <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-2">~$5k MRR</div>
-                <div class="text-base sm:text-lg text-white/90">in ~6 weeks (goal was 12 months)</div>
+                <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">$5,000</div>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
-                <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-2">1–1.5 yrs</div>
-                <div class="text-base sm:text-lg text-white/90">Product revenue surpassed services</div>
+                <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">1–1.5 years</div>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
-                <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-2">70k+ companies</div>
-                <div class="text-base sm:text-lg text-white/90">Millions of users</div>
+                <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">$0</div>
               </div>
             </div>
           </div>
@@ -220,12 +217,12 @@
             <div class="space-y-6">
               <div>
                 <h4 class="font-semibold mb-3 text-white text-lg">Challenge:</h4>
-                <p class="text-white/90 text-base leading-relaxed">Client communication and project tracking were scattered across email and docs, making projects a mess.</p>
+                <p class="text-white/90 text-base leading-relaxed">Client comms & project tracking scattered across email/docs; delivery inefficiencies.</p>
               </div>
 
               <div>
                 <h4 class="font-semibold mb-3 text-white text-lg">Solution:</h4>
-                <p class="text-white/90 text-base leading-relaxed">Build an internal, minimalist project tool; launch publicly with simple plans and organic distribution; double-down when product revenue overtook services.</p>
+                <p class="text-white/90 text-base leading-relaxed">Build an internal, minimal tool; launch publicly with simple monthly plans; pivot fully when product revenue beat services.</p>
               </div>
             </div>
           </div>
@@ -235,29 +232,25 @@
       <article class="w-full max-w-6xl text-left">
         <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What's possible - #2</h1>
         
-
         <div class="grid gap-6 lg:grid-cols-2">
           <!-- Left: KPI Cards -->
           <div class="space-y-4">
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
-                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">$12B</div>
-                <div class="text-base sm:text-lg text-white/90">Acquired by Intuit (2021)</div>
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white">30,000</div>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
-                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">430%</div>
-                <div class="text-base sm:text-lg text-white/90">User growth after freemium (≈85k → ≈450k)</div>
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white">$500,000</div>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
-                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">+650%</div>
-                <div class="text-base sm:text-lg text-white/90">Profits that year; ~30k free & ~4k paid signups/mo</div>
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white">$300,000</div>
               </div>
             </div>
           </div>
@@ -271,12 +264,12 @@
             <div class="space-y-6">
               <div>
                 <h4 class="font-semibold mb-3 text-white text-lg">Challenge:</h4>
-                <p class="text-white/90 text-base leading-relaxed">SMB clients needed newsletter/email help; services didn’t scale and enterprise tools ignored small businesses.</p>
+                <p class="text-white/90 text-base leading-relaxed">SMB clients needed email marketing; manual service didn’t scale; enterprise tools ignored small businesses.</p>
               </div>
 
               <div>
                 <h4 class="font-semibold mb-3 text-white text-lg">Solution:</h4>
-                <p class="text-white/90 text-base leading-relaxed">Productize as a self-serve email platform; launch freemium and viral loops (footer badge, referrals) to compound growth.</p>
+                <p class="text-white/90 text-base leading-relaxed">Turn service into self-serve product with online payments; focus on small-business self-serve and organic, word-of-mouth growth (pre-freemium).</p>
               </div>
             </div>
           </div>
