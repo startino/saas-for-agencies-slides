@@ -1,6 +1,6 @@
 <script lang="ts">
   let index = 0;
-  const numSlides = 15;
+  const numSlides = 14;
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
@@ -102,8 +102,6 @@
         <h1 class="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">Ready to stop selling time?</h1>
         <div class="prose-measure space-y-4 text-base leading-snug text-white/90 sm:text-lg md:text-xl lg:text-2xl">
           <p class="text-white/90">Your partner to productize your services and automate workflows—so revenue and margins grow.</p>
-          <p class="text-white/90">We turn your expertise into sellable products and your ops into automations.</p>
-          <p class="text-sm text-white/70 italic">We dare you.</p>
         </div>
       </article>
     {:else if index === 1}
@@ -120,7 +118,7 @@
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
               <div class="flex items-center">
                 <span class="mr-3 text-xl sm:text-2xl">💸</span>
-                <p class="text-sm sm:text-base md:text-lg text-white/90">No passive income: revenue resets monthly; software products compound.</p>
+                <p class="text-sm sm:text-base md:text-lg text-white/90">No passive income: revenue resets monthly.</p>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
@@ -455,16 +453,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- GTM Playbooks & Consulting -->
-            <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-              <div class="flex items-center mb-3">
-                <span class="mr-3 sm:mr-4 text-2xl sm:text-3xl">📊</span>
-                <div>
-                  <h3 class="text-lg sm:text-xl font-bold text-white">GTM playbooks & consulting (positioning, pricing, launch plan)</h3>
-                </div>
-              </div>
-            </div>
           </div>
 
           <!-- Bonuses Header -->
@@ -480,6 +468,16 @@
                 <span class="mr-3 sm:mr-4 text-2xl sm:text-3xl">🤖</span>
                 <div>
                   <h3 class="text-lg sm:text-xl font-bold text-white">Company-wide AI automations (ops, reporting, delivery)</h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- GTM Playbooks & Consulting -->
+            <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
+              <div class="flex items-center mb-3">
+                <span class="mr-3 sm:mr-4 text-2xl sm:text-3xl">📊</span>
+                <div>
+                  <h3 class="text-lg sm:text-xl font-bold text-white">GTM playbooks & consulting (positioning, pricing, launch plan)</h3>
                 </div>
               </div>
             </div>
@@ -506,28 +504,15 @@
       </article>
     {:else if index === 11}
       <article class="w-full max-w-5xl text-left">
-        <div class="space-y-4">
-          <div class="grid gap-4 grid-cols-1 md:grid-cols-4">
-            <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-5 backdrop-blur-sm border border-zinc-700/50">
-              <div class="text-white/70 text-sm mb-2">Step 1</div>
-              <div class="text-white font-semibold">Today</div>
-              <div class="text-white/90 text-sm">$X one-time investment</div>
-            </div>
-            <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-5 backdrop-blur-sm border border-zinc-700/50">
-              <div class="text-white/70 text-sm mb-2">Step 2</div>
-              <div class="text-white font-semibold">0–6 months</div>
-              <div class="text-white/90 text-sm">$50–100k/yr efficiency gains</div>
-            </div>
-            <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-5 backdrop-blur-sm border border-zinc-700/50">
-              <div class="text-white/70 text-sm mb-2">Step 3</div>
-              <div class="text-white font-semibold">6–12 months</div>
-              <div class="text-white/90 text-sm">New MRR from product/SaaS</div>
-            </div>
-            <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-5 backdrop-blur-sm border border-zinc-700/50">
-              <div class="text-white/70 text-sm mb-2">Step 4</div>
-              <div class="text-white font-semibold">Final</div>
-              <div class="text-white/90 text-sm">Sell for significant amounts</div>
-            </div>
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">The ROI model (at a glance)</h1>
+        <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
+          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
+            <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>Today:</strong> $X one-time investment</p>
+            <p class="text-sm sm:text-base md:text-lg text-white/80 mt-1">6–12 mo: New MRR from productized offer / SaaS</p>
+          </div>
+          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
+            <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>0–6 mo:</strong> <strong>$50–100k/yr</strong> efficiency gains (time back, fewer mistakes)</p>
+            <p class="text-sm sm:text-base md:text-lg text-white/80 mt-1">Final: Sell for <em>significant financial amounts</em></p>
           </div>
         </div>
       </article>
@@ -607,6 +592,7 @@
           <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50 max-w-2xl w-full">
             <div class="text-center flex flex-col items-center justify-center">
               <div class="mb-4 sm:mb-6 text-4xl sm:text-5xl">⏰</div>
+              <h3 class="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">Only 2 Spots Available This Quarter</h3>
               <p class="text-base sm:text-lg text-white/90 leading-relaxed">Due to our hands-on approach and commitment to quality, we limit ourselves to 2 agency SaaS projects per quarter. We are extremely picky with who we choose to work with to increase the chances of success.</p>
             </div>
           </div>
