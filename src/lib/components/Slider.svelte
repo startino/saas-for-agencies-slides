@@ -1,6 +1,6 @@
 <script lang="ts">
   let index = 0;
-  const numSlides = 14;
+  const numSlides = 15;
   const next = () => (index = Math.min(index + 1, numSlides - 1));
   const prev = () => (index = Math.max(index - 1, 0));
 
@@ -99,7 +99,7 @@
   <div class="relative mx-auto flex h-full w-full max-w-7xl items-start justify-start sm:items-center sm:justify-center pt-16 px-4 pb-24 sm:p-6 lg:p-12 sm:pb-0 overflow-y-auto overscroll-y-contain">
     {#if index === 0}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">Ready to stop selling time?</h1>
+        <h1 class="mb-6 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl">Ready to stop selling time?</h1>
         <div class="prose-measure space-y-4 text-base leading-snug text-white/90 sm:text-lg md:text-xl lg:text-2xl">
           <p class="text-white/90">Your partner to productize your services and automate workflows—so revenue and margins grow.</p>
         </div>
@@ -180,135 +180,115 @@
           </div>
         </div>
       </article>
+    {:else if index === 9}
+      <article class="w-full max-w-6xl text-left">
+        <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Real-World Case Study: 37signals → Basecamp</h1>
+        <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
+          <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
+        </div>
+
+        <div class="grid gap-6 lg:grid-cols-2">
+          <!-- Left: KPI Cards -->
+          <div class="space-y-4">
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-2">~$5k MRR</div>
+                <div class="text-base sm:text-lg text-white/90">in ~6 weeks (goal was 12 months)</div>
+              </div>
+            </div>
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-2">1–1.5 yrs</div>
+                <div class="text-base sm:text-lg text-white/90">Product revenue surpassed services</div>
+              </div>
+            </div>
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-2">70k+ companies</div>
+                <div class="text-base sm:text-lg text-white/90">Millions of users</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Case Study Details -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="mb-6">
+              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">37signals (web design consultancy) → Basecamp (project collaboration)</h3>
+              <p class="text-white/80 text-base sm:text-lg">Agency MRR before switch: Not disclosed (small, profitable consultancy)</p>
+            </div>
+
+            <div class="space-y-6">
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Challenge:</h4>
+                <p class="text-white/90 text-base leading-relaxed">Client communication and project tracking were scattered across email and docs, making projects a mess.</p>
+              </div>
+
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Solution:</h4>
+                <p class="text-white/90 text-base leading-relaxed">Build an internal, minimalist project tool; launch publicly with simple plans and organic distribution; double-down when product revenue overtook services.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    {:else if index === 10}
+      <article class="w-full max-w-6xl text-left">
+        <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Real-World Case Study: Rocket Science Group → Mailchimp</h1>
+        <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
+          <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
+        </div>
+
+        <div class="grid gap-6 lg:grid-cols-2">
+          <!-- Left: KPI Cards -->
+          <div class="space-y-4">
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">$12B</div>
+                <div class="text-base sm:text-lg text-white/90">Acquired by Intuit (2021)</div>
+              </div>
+            </div>
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">430%</div>
+                <div class="text-base sm:text-lg text-white/90">User growth after freemium (≈85k → ≈450k)</div>
+              </div>
+            </div>
+            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
+              <div class="relative z-10">
+                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">+650%</div>
+                <div class="text-base sm:text-lg text-white/90">Profits that year; ~30k free & ~4k paid signups/mo</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Case Study Details -->
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="mb-6">
+              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">Rocket Science Group (web/design agency) → Mailchimp (email marketing)</h3>
+              <p class="text-white/80 text-base sm:text-lg">Agency MRR before switch: ≈$25k/mo (~$300k/yr) from services</p>
+            </div>
+
+            <div class="space-y-6">
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Challenge:</h4>
+                <p class="text-white/90 text-base leading-relaxed">SMB clients needed newsletter/email help; services didn’t scale and enterprise tools ignored small businesses.</p>
+              </div>
+
+              <div>
+                <h4 class="font-semibold mb-3 text-white text-lg">Solution:</h4>
+                <p class="text-white/90 text-base leading-relaxed">Productize as a self-serve email platform; launch freemium and viral loops (footer badge, referrals) to compound growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
     {:else if index === 4}
-      <article class="w-full max-w-6xl text-left">
-        <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What We Want to Achieve</h1>
-        <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
-          <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
-        </div>
-        
-        <div class="grid gap-6 lg:grid-cols-2">
-          <!-- Left: KPI Cards -->
-          <div class="space-y-4">
-            <!-- $480k Revenue Card -->
-            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
-              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
-              <div class="relative z-10">
-                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">$480k</div>
-                <div class="text-base sm:text-lg text-white/90">Additional Annual Revenue</div>
-              </div>
-            </div>
-            
-            <!-- 65% Reduction Card -->
-            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
-              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
-              <div class="relative z-10">
-                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">65%</div>
-                <div class="text-base sm:text-lg text-white/90">Reduction in Manual Tasks</div>
-              </div>
-            </div>
-            
-            <!-- 250% Productivity Card -->
-            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
-              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
-              <div class="relative z-10">
-                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">250%</div>
-                <div class="text-base sm:text-lg text-white/90">Productivity Increase</div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Right: Case Study Details -->
-          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
-            <div class="mb-6">
-              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">MarketFlow Digital</h3>
-              <p class="text-white/80 text-base sm:text-lg">$120k/Month Agency</p>
-            </div>
-            
-            <div class="space-y-6">
-              <div>
-                <h4 class="font-semibold mb-3 text-white text-lg">Challenge:</h4>
-                <p class="text-white/90 text-base leading-relaxed">Manual campaign management eating 70% of team capacity</p>
-              </div>
-              
-              <div>
-                <h4 class="font-semibold mb-3 text-white text-lg">Solution:</h4>
-                <p class="text-white/90 text-base leading-relaxed">Custom marketing automation SaaS with client self-service portals</p>
-              </div>
-              
-              <div>
-                <h4 class="font-semibold mb-3 text-white text-lg">Impact:</h4>
-                <p class="text-white/90 text-base leading-relaxed">Tripled their revenue stream in 12 months by combining automation with a complete business transformation.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-    {:else if index === 5}
-      <article class="w-full max-w-6xl text-left">
-        <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What We Want to Achieve</h1>
-        <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
-          <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
-        </div>
-        
-        <div class="grid gap-6 lg:grid-cols-2">
-          <!-- Left: KPI Cards -->
-          <div class="space-y-4">
-            <!-- $350k ARR Card -->
-            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
-              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
-              <div class="relative z-10">
-                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">$350k</div>
-                <div class="text-base sm:text-lg text-white/90">New ARR in 12 Months</div>
-              </div>
-            </div>
-            
-            <!-- 55% Churn Reduction Card -->
-            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
-              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
-              <div class="relative z-10">
-                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">55%</div>
-                <div class="text-base sm:text-lg text-white/90">Client Churn Reduction</div>
-              </div>
-            </div>
-            
-            <!-- 3.2x Valuation Card -->
-            <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
-              <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
-              <div class="relative z-10">
-                <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-2">3.2x</div>
-                <div class="text-base sm:text-lg text-white/90">Agency Valuation Increase</div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Right: Case Study Details -->
-          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
-            <div class="mb-6">
-              <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-white">GrowthLab Agency</h3>
-              <p class="text-white/80 text-base sm:text-lg">$95k/Month Agency</p>
-            </div>
-            
-            <div class="space-y-6">
-              <div>
-                <h4 class="font-semibold mb-3 text-white text-lg">Challenge:</h4>
-                <p class="text-white/90 text-base leading-relaxed">Clients demanding real-time reporting and advanced analytics</p>
-              </div>
-              
-              <div>
-                <h4 class="font-semibold mb-3 text-white text-lg">Solution:</h4>
-                <p class="text-white/90 text-base leading-relaxed">White-label analytics platform with automated reporting</p>
-              </div>
-              
-              <div>
-                <h4 class="font-semibold mb-3 text-white text-lg">Impact:</h4>
-                <p class="text-white/90 text-base leading-relaxed">Successfully increased valuation and sold 18 months later due to superior tool value and client retention.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-    {:else if index === 6}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Why You?</h1>
         
@@ -316,7 +296,7 @@
           <p>Your domain expertise + our SaaS expertise (engineering + go-to-market) = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.</p>
         </div>
       </article>
-    {:else if index === 7}
+    {:else if index === 5}
       <article class="w-full max-w-5xl text-left">
         <div class="grid gap-4 sm:gap-6 grid-cols-1 md:grid-cols-2">
           <!-- You bring -->
@@ -360,7 +340,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 9}
+    {:else if index === 11}
       <!-- Project Showcase Slide -->
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Our Favourite Builds</h1>
@@ -427,7 +407,7 @@
           <a href="https://www.starti.no/projects" class="text-white underline hover:no-underline text-base" target="_blank">View all our projects →</a>
         </div>
       </article>
-    {:else if index === 8}
+    {:else if index === 7}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What you get</h1>
         
@@ -484,9 +464,9 @@
           </div>
         </div>
       </article>
-    {:else if index === 10}
+    {:else if index === 8}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">The ROI model (at a glance)</h1>
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">The ROI model</h1>
         <div class="grid gap-4 grid-cols-1 md:grid-cols-4">
           <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-5 backdrop-blur-sm border border-zinc-700/50">
             <div class="text-white/70 text-sm mb-2">Step 1</div>
@@ -510,9 +490,9 @@
           </div>
         </div>
       </article>
-    {:else if index === 11}
+    {:else if index === 6}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">How this partnership works</h1>
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Path to SaaS Success</h1>
         
         <div class="space-y-4">
           <!-- Step 1 -->
@@ -564,7 +544,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 12}
+    {:else if index === 13}
       <article class="w-full max-w-5xl text-center">
         <div class="flex justify-center px-4">
           <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50 max-w-2xl w-full">
@@ -577,13 +557,13 @@
         </div>
       </article>
 
-    {:else if index === 13}
+    {:else if index === 14}
       <article class="w-full max-w-5xl text-left">
         <div class="mb-8 text-left">
           <p class="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
         </div>
 
-        <div class="grid gap-6 grid-cols-1 max-w-md w-full mx-auto">
+        <div class="grid gap-6 grid-cols-1 max-w-md w-full">
           <!-- Book a Fit Call -->
           <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50">
             <div class="text-left">
@@ -591,6 +571,26 @@
               <h3 class="text-xl sm:text-2xl font-bold text-white mb-4">Book a Fit Call</h3>
               <a href="https://cal.com/jorgelewis/15min" class="inline-block bg-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-white/90 transition-colors" target="_blank">Schedule 15min Call</a>
             </div>
+          </div>
+        </div>
+      </article>
+    {:else if index === 12}
+      <article class="w-full max-w-5xl text-left">
+        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Testimonials</h1>
+        <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="text-3xl mb-3">💬</div>
+            <p class="text-white/90 text-base leading-relaxed mb-4">“Startino transformed our agency from manual chaos to automated efficiency. Our SaaS platform now generates $40k MRR and our team productivity increased by 200%. Best investment we've ever made.”</p>
+            <div class="text-white font-semibold">John Davis</div>
+            <div class="text-white/70 text-sm">CEO, DigitalFlow Agency</div>
+            <div class="mt-2 text-yellow-400">⭐⭐⭐⭐⭐</div>
+          </div>
+          <div class="rounded-xl bg-zinc-800/60 p-6 backdrop-blur-sm border border-zinc-700/50">
+            <div class="text-3xl mb-3">💬</div>
+            <p class="text-white/90 text-base leading-relaxed mb-4">“The custom SaaS platform Jorge and his team built for us eliminated 60 hours of manual work per week. We went from 8 clients to 25 clients with the same team size. Incredible ROI.”</p>
+            <div class="text-white font-semibold">Sarah Miller</div>
+            <div class="text-white/70 text-sm">Founder, GrowthHack Solutions</div>
+            <div class="mt-2 text-yellow-400">⭐⭐⭐⭐⭐</div>
           </div>
         </div>
       </article>

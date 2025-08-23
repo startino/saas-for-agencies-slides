@@ -1,17 +1,15 @@
-# Scale Your Agency with a SaaS
+# Ready to stop selling time?
 
-**We build & Monetise (AI) SaaS for Digital Agencies (doing $1M+/yr)**
+Your partner to productize your services and automate workflows—so revenue and margins grow.
 
-Whether to sell to other agencies (white-label) or productize your services and sell directly to customers.
-
-## Your Agency's Problem
+## Your agency’s challenges
 
 You've built a successful agency, but...
 
 - 👨‍💼 75% of your revenue depends on YOU being involved in every project
 - 💸 Your team spends 40+ hours/week (costing you $8,000+/mo) on repetitive, manual tasks
 - 📉 Your agency valuation multiple is capped at 1–2x revenue due to service-heavy operations
-- 💤 No passive income — revenue resets monthly; SaaS compounds with MRR
+- 💤 No passive income — revenue resets monthly
 
 ## The New Opportunity
 
@@ -24,7 +22,12 @@ What if your agency could:
 - ✅ Automate delivery and operations end‑to‑end
 - ✅ Increase enterprise value and valuation multiple
 
-## What Our Clients Say
+## A SaaS will give you
+
+- An asset that allows you to step off the endless treadmill
+- A new recurring income stream
+- No stress about whether you’ll have any profit
+- Proprietary technology that makes you better than competitors
 
 ### John Davis - CEO, DigitalFlow Agency
 
@@ -85,25 +88,20 @@ Your domain expertise + our SaaS expertise (engineering + marketing) = A market-
 - 7+ years per engineer in programming experience
 - 2+ years in the SaaS industry, learning and building
 
-## What You Get
+## What you get
 
 ### Full SaaS Platform
 
 Ready to sell to clients or competing agencies
 
-### 2 Months Post-Launch Support
+### Post-launch iteration & collaboration (12 weeks)
 
 Continuous iteration and refinement after launch
 
 #### Bonuses:
 
-### GTM & Marketing+Sales Playbooks
-
-Based on agency-to-SaaS case studies and interviews
-
-### Company-wide AI Automation
-
-Implementation across your entire operation
+- Company-wide AI automations (ops, reporting, delivery)
+- GTM playbooks & consulting (positioning, pricing, launch plan)
 
 ## Our Favourite Builds
 
@@ -135,32 +133,26 @@ AI-powered platform helping students discover best-fit universities and improve 
 
 [View all our projects →](https://www.starti.no/projects)
 
-## Your ROI Projection
+## The ROI model (at a glance)
 
-We can't guarantee exact revenue, but we can guarantee insane efficiency gains — your team is already leaking ~$8,000+/mo in automatable tasks. That's $100+,000/year back in capacity, without a single new client.
+- Today: $X one-time investment
+- 0–6 mo: $50–100k/yr efficiency gains (time back, fewer mistakes)
+- 6–12 mo: New MRR from productized offer / SaaS
+- Final: Sell for significant financial amounts (incomparable to a service agency)
 
-And while efficiency pays for the project on its own, the real upside is in SaaS revenue and enterprise value multiples.
-
-### Conservative 12-Month Forecast
-
-- ⚡ **Efficiency Gains:** ~$100,000/yr saved in staff time and overhead
-- 💰 **First-Year SaaS Revenue:** ~$50,000 (conservative projection)
-- 📈 **Enterprise Valuation Multiple:** 1-3x → 4-10x EBITDA valuation increase
-- 🚀 **$150,000 First Year Impact**
-
-**Payback Period:** 4–6 months from efficiency gains **alone**
-
-## Path to SaaS Success
+## How this partnership works
 
 ### 1. Strategic Discovery (Week 1)
 
 Deep-dive analysis, profit optimization audit, custom SaaS blueprint, and ROI projection
 
-### 2. MVP Development (Week 2-5)
+### 2. Decide (Week 2)
 
-Core SaaS platform built (you won't get this speed anywhere else 😉)
+v1.0 product + automation quick wins
 
-### 3. Launch & Scale (Week 5-10)
+### 3. Build (Weeks 2–7)
+
+### 4. Launch & Improve (Weeks 7–19)
 
 Pilot testing, user feedback iterations, go-to-market strategy, and team training
 
