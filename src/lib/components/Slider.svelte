@@ -192,18 +192,21 @@
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
                 <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">$5,000</div>
+                <div class="text-base sm:text-lg text-white/90">MRR in 6 weeks</div>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
                 <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">1–1.5 years</div>
+                <div class="text-base sm:text-lg text-white/90">to surpass agency revenue</div>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
                 <div class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">$0</div>
+                <div class="text-base sm:text-lg text-white/90">paid advertising to reach early scale</div>
               </div>
             </div>
           </div>
@@ -239,18 +242,21 @@
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
                 <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white">30,000</div>
+                <div class="text-base sm:text-lg text-white/90">paying customers at pivot</div>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
                 <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white">$500,000</div>
+                <div class="text-base sm:text-lg text-white/90">annual product revenue at pivot</div>
               </div>
             </div>
             <div class="rounded-xl bg-zinc-800/80 p-6 backdrop-blur-sm border border-zinc-700/50 relative overflow-hidden">
               <div class="absolute inset-0 bg-gradient-to-r from-[#45dfa4]/10 to-transparent opacity-60"></div>
               <div class="relative z-10">
                 <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white">$300,000</div>
+                <div class="text-base sm:text-lg text-white/90">annual agency revenue replaced</div>
               </div>
             </div>
           </div>
