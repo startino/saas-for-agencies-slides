@@ -512,20 +512,6 @@
       </article>
     {:else if index === 11}
       <article class="w-full max-w-5xl text-left">
-        <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">The ROI model (at a glance)</h1>
-        <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
-          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>Today:</strong> $X one-time investment</p>
-            <p class="text-sm sm:text-base md:text-lg text-white/80 mt-1">6–12 mo: New MRR from productized offer / SaaS</p>
-          </div>
-          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>0–6 mo:</strong> <strong>$50–100k/yr</strong> efficiency gains (time back, fewer mistakes)</p>
-            <p class="text-sm sm:text-base md:text-lg text-white/80 mt-1">Final: Sell for <em>significant financial amounts</em></p>
-          </div>
-        </div>
-      </article>
-    {:else if index === 12}
-      <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">How this partnership works</h1>
         
         <div class="space-y-4">
@@ -552,22 +538,6 @@
                 <span class="text-lg font-bold text-white">2</span>
               </div>
               <div>
-                <h3 class="text-xl font-bold text-white">Decide</h3>
-                <p class="text-white/80 text-sm">Week 2</p>
-              </div>
-            </div>
-            <div class="ml-13">
-              <p class="text-white/90 text-sm">v1.0 product + automation quick wins</p>
-            </div>
-          </div>
-
-          <!-- Step 3 -->
-          <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
-            <div class="flex items-center mb-3">
-              <div class="mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-zinc-700">
-                <span class="text-lg font-bold text-white">3</span>
-              </div>
-              <div>
                 <h3 class="text-xl font-bold text-white">Build</h3>
                 <p class="text-white/80 text-sm">Weeks 2–7</p>
               </div>
@@ -577,11 +547,11 @@
             </div>
           </div>
 
-          <!-- Step 4 -->
+          <!-- Step 3 -->
           <div class="rounded-xl bg-zinc-800/60 p-4 backdrop-blur-sm border border-zinc-700/50">
             <div class="flex items-center mb-3">
               <div class="mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-zinc-700">
-                <span class="text-lg font-bold text-white">4</span>
+                <span class="text-lg font-bold text-white">3</span>
               </div>
               <div>
                 <h3 class="text-xl font-bold text-white">Launch & Improve</h3>
@@ -594,7 +564,7 @@
           </div>
         </div>
       </article>
-    {:else if index === 13}
+    {:else if index === 12}
       <article class="w-full max-w-5xl text-center">
         <div class="flex justify-center px-4">
           <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50 max-w-2xl w-full">
@@ -607,7 +577,7 @@
         </div>
       </article>
 
-    {:else if index === 14}
+    {:else if index === 13}
       <article class="w-full max-w-5xl text-left">
         <div class="mb-8 text-left">
           <p class="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
