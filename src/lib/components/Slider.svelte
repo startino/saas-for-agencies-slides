@@ -583,7 +583,7 @@
           <p class="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">Your competitors are already exploring SaaS solutions. The agencies that act first will dominate their markets while others struggle with manual processes and shrinking margins.</p>
         </div>
 
-        <div class="grid gap-6 grid-cols-1 max-w-4xl">
+        <div class="grid gap-6 grid-cols-1 max-w-md w-full mx-auto">
           <!-- Book a Fit Call -->
           <div class="rounded-xl bg-zinc-800/60 p-6 sm:p-8 backdrop-blur-sm border border-zinc-700/50">
             <div class="text-left">
