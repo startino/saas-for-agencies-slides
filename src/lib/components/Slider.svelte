@@ -275,7 +275,7 @@
 
               <div>
                 <h4 class="font-semibold mb-3 text-white text-lg">Solution:</h4>
-                <p class="text-white/90 text-base leading-relaxed">Turn service into self-serve product with online payments; focus on small-business self-serve and organic, word-of-mouth growth (pre-freemium).</p>
+                <p class="text-white/90 text-base leading-relaxed">Turn service into self-serve product with online payments; focus on small-business self-serve and organic, word-of-mouth growth.</p>
               </div>
             </div>
           </div>
