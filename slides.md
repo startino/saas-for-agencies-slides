@@ -24,6 +24,20 @@ What if your agency could:
 - ✅ Automate delivery and operations end‑to‑end
 - ✅ Increase enterprise value and valuation multiple
 
+## What Our Clients Say
+
+### John Davis - CEO, DigitalFlow Agency
+
+_"Startino transformed our agency from manual chaos to automated efficiency. Our SaaS platform now generates $40k MRR and our team productivity increased by 200%. Best investment we've ever made."_
+⭐⭐⭐⭐⭐
+
+### Sarah Miller - Founder, GrowthHack Solutions
+
+_"The custom SaaS platform Jorge and his team built for us eliminated 60 hours of manual work per week. We went from 8 clients to 25 clients with the same team size. Incredible ROI."_
+⭐⭐⭐⭐⭐
+
+Ready to join our success stories?
+
 ## What We Want to Achieve
 
 _(not our case-studies) - [source](https://www.davidhart.io/newsletter/agencies-who-switched-to-saas)_
@@ -62,16 +76,36 @@ Your domain expertise + our SaaS expertise (engineering + marketing) = A market-
 
 ### 👑 You bring:
 
-- First-hand knowledge of your market, clients, and pain points
+- Extremely deep knowledge of your market, clients, and pain points
 - Proven service processes that have generated $80k+/month in revenue
 - First batch of users from your existing clientele (**super** valuable)
 
 ### ⚡ We bring:
 
 - 7+ years per engineer in programming experience
-- 2+ years in the SaaS industry, learning and building - [checkout our projects](https://www.starti.no/projects) (old website)
+- 2+ years in the SaaS industry, learning and building
 
-## Our Top Projects
+## What You Get
+
+### Full SaaS Platform
+
+Ready to sell to clients or competing agencies
+
+### 2 Months Post-Launch Support
+
+Continuous iteration and refinement after launch
+
+#### Bonuses:
+
+### GTM & Marketing+Sales Playbooks
+
+Based on agency-to-SaaS case studies and interviews
+
+### Company-wide AI Automation
+
+Implementation across your entire operation
+
+## Our Favourite Builds
 
 ### Reletino - Lead Generation SaaS
 
@@ -99,19 +133,7 @@ AI-powered platform helping students discover best-fit universities and improve 
 - Admissions analytics
 - Case study coming soon
 
-## What Our Clients Say
-
-### John Davis - CEO, DigitalFlow Agency
-
-_"Startino transformed our agency from manual chaos to automated efficiency. Our SaaS platform now generates $40k MRR and our team productivity increased by 200%. Best investment we've ever made."_
-⭐⭐⭐⭐⭐
-
-### Sarah Miller - Founder, GrowthHack Solutions
-
-_"The custom SaaS platform Jorge and his team built for us eliminated 60 hours of manual work per week. We went from 8 clients to 25 clients with the same team size. Incredible ROI."_
-⭐⭐⭐⭐⭐
-
-Ready to join our success stories?
+[View all our projects →](https://www.starti.no/projects)
 
 ## Your ROI Projection
 
@@ -122,8 +144,9 @@ And while efficiency pays for the project on its own, the real upside is in SaaS
 ### Conservative 12-Month Forecast
 
 - ⚡ **Efficiency Gains:** ~$100,000/yr saved in staff time and overhead
-- 💰 **First-Year SaaS Revenue:** ~$72,000 (conservative projection)
-- 🚀 **$172,000 First Year Impact** on a $45,000 investment
+- 💰 **First-Year SaaS Revenue:** ~$50,000 (conservative projection)
+- 📈 **Enterprise Valuation Multiple:** 1-3x → 4-10x EBITDA valuation increase
+- 🚀 **$150,000 First Year Impact**
 
 **Payback Period:** 4–6 months from efficiency gains **alone**
 
@@ -146,17 +169,6 @@ Pilot testing, user feedback iterations, go-to-market strategy, and team trainin
 ### ⏰ Only 2 Spots Available This Quarter
 
 Due to our hands-on approach and commitment to quality, we limit ourselves to 2 agency SaaS projects per quarter. We are extremely picky with who we choose to work with to increase the chances of success.
-
-## Your SaaS Investment Breakdown
-
-### $45,000 + 3% revenue share
-
-What's included:
-
-- 🤖 Custom SaaS platform (AI features included)
-- 🔗 Client portal integration streamlining operations
-- ⚡ Automation workflows eliminating manual tasks
-- 🔄 3 months of iterating and refining the product after initial build
 
 ## Let's fucking do this.
 
