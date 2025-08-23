@@ -183,9 +183,7 @@
     {:else if index === 9}
       <article class="w-full max-w-6xl text-left">
         <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What's possible - #1</h1>
-        <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
-          <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
-        </div>
+        
 
         <div class="grid gap-6 lg:grid-cols-2">
           <!-- Left: KPI Cards -->
@@ -236,9 +234,7 @@
     {:else if index === 10}
       <article class="w-full max-w-6xl text-left">
         <h1 class="mb-4 sm:mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">What's possible - #2</h1>
-        <div class="text-base sm:text-lg leading-snug text-white/90 mb-4 sm:mb-6">
-          <p class="mb-4 text-sm opacity-80">(not our case-studies) - <a href="https://www.davidhart.io/newsletter/agencies-who-switched-to-saas" class="text-white underline hover:no-underline" target="_blank">source</a></p>
-        </div>
+        
 
         <div class="grid gap-6 lg:grid-cols-2">
           <!-- Left: KPI Cards -->
