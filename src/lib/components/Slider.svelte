@@ -313,7 +313,7 @@
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">Why You?</h1>
         
         <div class="prose-measure space-y-4 text-lg leading-snug text-white/90 sm:text-xl lg:text-2xl">
-          <p>Your domain expertise + our SaaS expertise (engineering + marketing) = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.</p>
+          <p>Your domain expertise + our SaaS expertise (engineering + go-to-market) = A market-ready product that solves real problems, retains clients, and generates recurring revenue — faster than either of us could do alone.</p>
         </div>
       </article>
     {:else if index === 7}
@@ -487,18 +487,26 @@
     {:else if index === 10}
       <article class="w-full max-w-5xl text-left">
         <h1 class="mb-6 text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">The ROI model (at a glance)</h1>
-        <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
-          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>Today:</strong> $X one-time investment</p>
+        <div class="grid gap-4 grid-cols-1 md:grid-cols-4">
+          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-5 backdrop-blur-sm border border-zinc-700/50">
+            <div class="text-white/70 text-sm mb-2">Step 1</div>
+            <div class="text-white font-semibold">Today</div>
+            <div class="text-white/90 text-sm">$X one-time investment</div>
           </div>
-          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>Near future (0–6 mo):</strong> <strong>$50–100k/yr</strong> efficiency gains (time back, fewer mistakes)</p>
+          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-5 backdrop-blur-sm border border-zinc-700/50">
+            <div class="text-white/70 text-sm mb-2">Step 2</div>
+            <div class="text-white font-semibold">0–6 months</div>
+            <div class="text-white/90 text-sm">$50–100k/yr efficiency gains</div>
           </div>
-          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>Future (6–12 mo):</strong> <strong>New MRR</strong> from productized offer / SaaS</p>
+          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-5 backdrop-blur-sm border border-zinc-700/50">
+            <div class="text-white/70 text-sm mb-2">Step 3</div>
+            <div class="text-white font-semibold">6–12 months</div>
+            <div class="text-white/90 text-sm">New MRR from product/SaaS</div>
           </div>
-          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-6 backdrop-blur-sm border border-zinc-700/50">
-            <p class="text-sm sm:text-base md:text-lg text-white/90"><strong>Final:</strong> Sell for <em>significant financial amounts</em> (incomparable to a service agency)</p>
+          <div class="rounded-xl bg-zinc-800/60 p-4 sm:p-5 backdrop-blur-sm border border-zinc-700/50">
+            <div class="text-white/70 text-sm mb-2">Step 4</div>
+            <div class="text-white font-semibold">Final</div>
+            <div class="text-white/90 text-sm">Sell for significant amounts</div>
           </div>
         </div>
       </article>
